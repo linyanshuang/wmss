@@ -63,7 +63,15 @@ class IndexController extends HomeController {
 		$keyword   =   strtolower(trim(I('get.search')));//全部转成小写
 		$this->ajaxReturn(get_keywords_result_count1($keyword),'JSON');
 	}
+
+	public function trace($ip=''){
+		$ip = get_client_ip();
+		$Ipl = new \Org\Net\IpLocation('UTFWry.dat'); // 实例化类 参数表示IP地址库文件
+		$area = $Ipl->getlocation($ip); // 获取某个IP地址所在的位置
+		echo $area . $ip;
 	
+	}
+
 	
 	public function init(){
 		$url = "www.findeen.co.uk";
