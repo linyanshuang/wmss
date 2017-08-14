@@ -1,0 +1,98 @@
+[ 2017-01-04T23:59:02+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000583s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000437s ]
+
+[ 2017-01-04T23:59:07+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000622s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000392s ]
+
+[ 2017-01-04T23:59:12+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000758s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000348s ]
+
+[ 2017-01-04T23:59:17+08:00 ] 116.30.122.214 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000817s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000342s ]
+
+[ 2017-01-04T23:59:17+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000439s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000536s ]
+
+[ 2017-01-04T23:59:22+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000627s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000334s ]
+
+[ 2017-01-04T23:59:27+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000582s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000425s ]
+
+[ 2017-01-04T23:59:32+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000569s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000413s ]
+
+[ 2017-01-04T23:59:37+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000708s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000381s ]
+
+[ 2017-01-04T23:59:42+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000551s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000363s ]
+
+[ 2017-01-04T23:59:47+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000603s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000374s ]
+
+[ 2017-01-04T23:59:52+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000602s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000391s ]
+
+[ 2017-01-04T23:59:57+08:00 ] 116.30.122.214 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000566s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000389s ]
+
+[ 2017-01-04T23:59:57+08:00 ] 116.30.122.214 /Home/Index/currentCount.html?search=LED%20high%20bay%20light:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000470s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000329s ]
+

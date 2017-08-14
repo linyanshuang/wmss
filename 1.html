@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>2B麻将计算器</title>
+<!-- Designed by Oxford Niu at 26/12/2013. -->
+<style type="text/css">
+* {box-sizing:border-box;}
+html {
+    //iphone5
+    font-size: 62.5%;
+}
+@media (max-width: 414px) {
+    html {
+        //iphone6+
+        font-size: 80.85%;
+    }
+}
+@media (max-width: 375px) {
+    html {
+        //iphone6
+        font-size: 73.24%;
+    }
+}
+a{display:block;}
+ span{dispaly:block;}
+{
+    max-width:640px;
+    min-width:320px;
+}
+a,button,input,optgroup,select,textarea {
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+}
+a, img {
+    -webkit-touch-callout: none; /*禁止长按链接与图片弹出菜单*/
+}
+body{
+    -webkit-overflow-scrolling:touch;
+}
+{
+    /*指定字符串的宽度*/
+    width:300px;   
+    overflow: hidden;  
+    /* 当字符串超过规定长度，显示省略符*/ 
+    text-overflow:ellipsis;  
+    white-space: nowrap;   
+}
+</style>
+<script type="text/javascript">
+var list  = new Array();
+var	total = new Array();
+var	jiesuan = new Array();
+function calculate() {
+	var hupai = document.getElementById("hupai").value;
+	piaocai = getCheckValueByName('piaocai');
+	caishen = getCheckValueByName('caishen');
+	var base = new Array();
+	base[0] = -1;
+	base[1] = -1;
+	base[2] = -1;
+	base[3] = -1;
+	if(document.getElementById("master").value == document.getElementById("hujia").value){
+		base[document.getElementById("hujia").value] = 3;
+	}else{
+		base[document.getElementById("hujia").value] = 1.25;
+	}
+	var master = new Array();
+    master[0] = 1;
+    master[1] = 1;
+    master[2] = 1;
+    master[3] = 1;
+	master[document.getElementById("master").value] = 8;
+	master[document.getElementById("hujia").value] = 8;	
+	if(document.getElementById("master").value == document.getElementById("hujia").value){
+		master[0] = 8;
+		master[1] = 8;
+		master[2] = 8;
+		master[3] = 8;
+	}
+	var result = new Array();
+	result[0] = base[0] * master[0] * hupai * piaocai * caishen;
+	result[1] = base[1] * master[1] * hupai * piaocai * caishen;
+	result[2] = base[2] * master[2] * hupai * piaocai * caishen;
+	result[3] = base[3] * master[3] * hupai * piaocai * caishen;
+	list[list.length] = result;
+	setCookie('list',JSON.stringify(list));
+	show();
+}
+
+function total1(){
+	sub = new Array();
+	sub[0] = 0;
+	sub[1] = 0;
+	sub[2] = 0;
+	sub[3] = 0;
+	if(getCookie('list') != null){
+		list = JSON.parse(getCookie('list'));
+	}
+	 for(var i=0;i<list.length;i++){
+		sub[0]  += list[i][0];
+		sub[1]  += list[i][1];
+		sub[2]  += list[i][2];
+		sub[3]  += list[i][3];
+	 }
+	 total[total.length] = sub;
+	 setCookie('total',JSON.stringify(total));
+	 show();
+}
+
+function totalall(){
+	sub = new Array();
+	sub[0] = 0;
+	sub[1] = 0;
+	sub[2] = 0;
+	sub[3] = 0;
+	if(getCookie('total') != null){
+		total = JSON.parse(getCookie('total'));
+	}
+	 for(var i=0;i<total.length;i++){
+		sub[0]  += total[i][0];
+		sub[1]  += total[i][1];
+		sub[2]  += total[i][2];
+		sub[3]  += total[i][3];
+	 }
+	 addrows(sub,'t3')
+	 //setCookie('jiesuan',JSON.stringify(jiesuan));
+	 //show();
+}
+
+
+
+function show(){
+	delAll('t1');
+	delAll('t2');
+	if(getCookie('list') != null){
+		list = JSON.parse(getCookie('list'));
+	}
+	if(getCookie('total') != null){
+		total = JSON.parse(getCookie('total'));
+	}
+	 for(var i=0;i<list.length;i++){
+		addrows(list[i],'t1');
+	 }
+
+	 for(var i=0;i<total.length;i++){
+		addrows(total[i],'t2');
+	 }
+}
+
+function cancel(name){
+	if(getCookie(name) != null){
+		list = JSON.parse(getCookie(name));
+	}
+	list.pop();
+	setCookie(name,JSON.stringify(list));
+	show();
+}
+
+
+function addrows(result,t)
+{
+	var table = document.getElementById(t);
+	if(table==null){
+		return;
+	}
+	var row;
+	row=table.insertRow();
+	for(var i=0;i<result.length;i++){
+		 var cell = row.insertCell(i);
+		 var e = document.createElement("td");
+		 cell.appendChild(document.createTextNode(result[i]));
+		 cell.appendChild(e);
+	 }
+
+}
+
+
+
+function delAll(t){
+	var tb = document.getElementById(t);
+	if(tb==null){
+		return;
+	}
+     var rowNum=tb.rows.length;
+     for (i=1;i<rowNum;i++)
+     {
+         tb.deleteRow(i);
+         rowNum=rowNum-1;
+         i=i-1;
+     }
+}
+
+
+function getCheckValueByName(name){
+	var obj = document.getElementsByName(name);
+	for (var i = 0; i < obj.length; i++) {
+		if (obj[i].checked == true) {
+			return obj[i].value;
+		}
+	}
+	return 1;
+}
+
+
+function delCookie(name)
+{
+	var exp = new Date();
+	exp.setTime(exp.getTime() - 1);
+	var cval=getCookie(name);
+	if(cval!=null)
+	document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+}
+//使用示例
+//如果需要设定自定义过期时间
+//那么把上面的setCookie　函数换成下面两个函数就ok;
+//程序代码
+//写cookies
+function setCookie(name,value)
+{
+	var Days = 30;
+	var exp = new Date();
+	exp.setTime(exp.getTime() + Days*24*60*60*1000);
+	document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+}
+
+function getCookie(name)
+{
+	var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+	if(arr=document.cookie.match(reg))
+	return unescape(arr[2]);
+	else
+	return null;
+}
+
+</script>
+</head>
+
+
+<body onload=show()>
+<div>
+<p>具体胡了情况:</p>
+<p>胡家:<select id="hujia">
+<option value="0">东</option>
+<option value="1">南</option>
+<option value="2">西</option>
+<option value="3">北</option>
+</select><p>庄家:<select id="master">
+<option value="0">东</option>
+<option value="1">南</option>
+<option value="2">西</option>
+<option value="3">北</option>
+</select>
+</p>
+<p>
+胡牌:<select id="hupai">
+<option value="1">自摸</option>
+<option value="2">爆头</option>
+<option value="2">杠开</option>
+<option value="4">清七</option>
+<option value="4">杠爆</option>
+<option value="8">豪七</option>
+</select>
+</p>
+<p>飘财:
+<input name='piaocai' id="piaocai" type="radio" value="1" checked='true'></input><span style="color:red">0</span>
+<input name='piaocai' id="piaocai" type="radio" value="2"></input><span style="color:red">1</span>
+<input name='piaocai' id="piaocai" type="radio" value="4"></input><span style="color:red">2</span>
+<input name='piaocai' id="piaocai" type="radio" value="8"></input><span style="color:red">3</span>
+</p>
+<p>
+</p>
+<p>财神:
+<input id='caishen' name="caishen" type="radio" value="1" checked='true'></input><span style="color:red">1-2财</span>
+<input id='caishen' name="caishen" type="radio" value="2"></input><span style="color:red">3财</span>
+<input id='caishen' name="caishen" type="radio" value="4"></input><span style="color:red">4财</span></p>
+<p>
+</input><input type="button" onclick="calculate()" value="计算一把"></input>
+</input><input type="button" onclick="cancel('list')" value="重置一把"></input>
+</input><input type="button" onclick="total1()" value="汇总一局"></input>
+</input><input type="button" onclick="cancel('total')" value="重置一局"></input>
+</input><input type="button" onclick="totalall()" value="结算"></input>
+</p>
+<hr />
+<table id='t1' width='400px' border="1px" cellspacing="0" cellpadding="0">
+<thead>
+<td>东
+</td>
+<td>南
+</td>
+<td>西
+</td>
+<td>北
+</td>
+</thead>
+<tbody>
+<tbody>
+</table>
+<br />
+汇总:
+<table id='t2' width='400px' border="1px" cellspacing="0" cellpadding="0">
+<thead>
+<td>东
+</td>
+<td>南
+</td>
+<td>西
+</td>
+<td>北
+</td>
+</thead>
+<tbody>
+
+<tbody>
+</table>
+<br />
+结算:
+<table id='t3' width='400px' border="1px" cellspacing="0" cellpadding="0">
+<thead>
+<td>东
+</td>
+<td>南
+</td>
+<td>西
+</td>
+<td>北
+</td>
+</thead>
+<tbody>
+
+<tbody>
+</table>
+<div>
+</body>
+</html>

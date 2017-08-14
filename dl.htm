@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+<!-- saved from url=(0156)http://m.dailianmama.com/v-1.3.8-zh_CN-/dlmm/index.w?language=zh_CN&skin=&ttt=random7311058&p7953856=pp4065098&t=1500516982592#!main//(#!orderManageContent) -->
+<html style="width: 100%; height: 100%;" class="js flexbox flexboxlegacy canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths no-iosstatusbar appearance no-androidbrowser no-android44plus no-wechat no-devicem"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="http://inf.dailianmama.com/getMsgCount.action?dlmjsonp=jQuery111105983436856965192_1500874203003&amp;appflag=1&amp;ticket=db5d3bec-d069-4356-84cf-8c4d17109466-dlx-100142479&amp;_=1500874203028"></script>
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <script src="./dl_files/modernizr-2.8.3.min.js"></script>
+		<script id="__varReplace">
+    	
+    	    	window.__justep = window.__justep || {};
+				window.__justep.isDebug = false;
+				window.__justep.__packageMode = "1";
+				window.__justep.__isPackage = true;;
+				window.__justep.url = location.href;
+				window.__justep.versionInfo = {};
+		 
+    	</script>
+        <script id="__updateVersion">
+        
+				(function(url, mode){
+					if (("@"+"mode@") === mode) mode = "3";
+					if (("@"+"versionUrl@") === url) url = "system/service/common/app.j";
+					if ((mode!=="1" && (mode!="2") && (mode!="3"))) return;
+					var async = (mode=="1");
+					var x5Version = "noApp";
+					var x5AppAgents = /x5app\/([0-9.]*)/.exec(navigator.userAgent);
+					if(x5AppAgents && x5AppAgents.length > 1){
+					   	x5Version = x5AppAgents[1] || "";
+					} 
+					function createXhr(){
+						try {	
+							return new XMLHttpRequest();
+						}catch (tryMS) {	
+							var version = ["MSXML2.XMLHttp.6.0",
+							               "MSXML2.XMLHttp.3.0",
+							               "MSXML2.XMLHttp",
+							               "Miscrosoft.XMLHTTP"];
+							for(var i = 0; i < version.length; i++){
+								try{
+							    	return new ActiveXObject(version[i]);
+								}catch(e){}
+							}
+						}
+						throw new Error("您的系统或浏览器不支持XHR对象！");
+					}
+					
+					function createGuid(){	
+						var guid = '';	
+						for (var i = 1; i <= 32; i++){		
+							var n = Math.floor(Math.random()*16.0).toString(16);		
+							guid += n;		
+							if((i==8)||(i==12)||(i==16)||(i==20))			
+								guid += '-';	
+						}	
+						return guid;
+					}
+					
+					function parseUrl(href){
+						href = href.split("#")[0];
+						var items = href.split("?");
+						href = items[0];
+						var query = items[1] || "";
+						items = href.split("/");
+						var baseItems = [];
+						var pathItems = [];
+						var isPath = false;
+						for (var i=0; i<items.length; i++){
+							if (mode == "3"){
+								if (items[i] && (items[i].indexOf("v_") === 0) 
+										&& (items[i].indexOf("l_") !== -1)
+										&& (items[i].indexOf("s_") !== -1)
+										&& (items[i].indexOf("d_") !== -1)
+										|| (items[i]=="v_")){
+									isPath = true;
+									continue;
+								}
+							}else{
+								if (items[i] && (items[i].indexOf("v-")===0) && (items[i].charAt(items[i].length-1)=="-") ){
+									isPath = true;
+									continue;
+								}
+							}
+							if (isPath){
+								pathItems.push(items[i]);
+							}else{
+								baseItems.push(items[i]);	
+							}
+							
+						}
+						var base = baseItems.join("/");
+						if (base.charAt(base.length-1)!=="/") base += "/";
+						
+						var path = pathItems.join("/");
+						if (path.charAt(0) !== "/") path = "/" + path;
+						return [base, path, query];
+					}
+					
+					
+					var items = parseUrl(window.location.href);
+					var base = items[0];
+					var path = items[1];
+					var query = items[2];
+					var xhr = createXhr();
+					url += ((url.indexOf("?")!=-1) ? "&" : "?") +"_=" + createGuid();
+					if (mode === "3"){
+						url += "&url=" + path;
+						if (query)
+							url += "&" + query;
+					}
+					xhr.open('GET', base + url, async);
+					
+					if (async){
+						xhr.onreadystatechange=function(){
+							if((xhr.readyState == 4) && (xhr.status == 200) && xhr.responseText){
+								var versionInfo = JSON.parse(xhr.responseText);
+								window.__justep.versionInfo = versionInfo;
+								window.__justep.versionInfo.baseUrl = base;
+								if (window.__justep.url.indexOf(versionInfo.resourceInfo.version) == -1){
+									versionInfo.resourceInfo.isNewVersion = true;
+								};
+							}
+						}
+					}
+					
+					try{
+						xhr.send(null);
+						if (!async && (xhr.status == 200) && xhr.responseText){
+							var versionInfo = JSON.parse(xhr.responseText);
+							window.__justep.versionInfo = versionInfo;
+							window.__justep.versionInfo.baseUrl = base;
+							if ((mode==="3") && window.__justep.isDebug){
+								/* 模式3且是调试模式不重定向 */
+							}else{
+								if (versionInfo.resourceInfo && versionInfo.resourceInfo.version && (window.__justep.url.indexOf(versionInfo.resourceInfo.version) == -1)){
+									if (query){
+										path = path + "?" + query;
+									}
+									path = versionInfo.resourceInfo.indexURL || path; /* 如果返回indexPath则使用indexPath，否则使用当前的path */
+									var indexUrl = versionInfo.baseUrl + versionInfo.resourceInfo.version + path;
+									window.location.href = indexUrl;
+								}
+							}
+						}
+					}catch(e2){}
+				}("appMetadata_in_server.json", "1"));
+                 
+        </script>
+    <link rel="stylesheet" href="./dl_files/comp.min.css" include="$model/UI2/system/components/justep/lib/css2/dataControl,$model/UI2/system/components/justep/input/css/datePickerPC,$model/UI2/system/components/justep/messageDialog/css/messageDialog,$model/UI2/system/components/justep/lib/css3/round,$model/UI2/system/components/justep/input/css/datePicker,$model/UI2/system/components/justep/row/css/row,$model/UI2/system/components/justep/attachment/css/attachment,$model/UI2/system/components/justep/barcode/css/barcodeImage,$model/UI2/system/components/bootstrap/dropdown/css/dropdown,$model/UI2/system/components/justep/dataTables/css/dataTables,$model/UI2/system/components/justep/contents/css/contents,$model/UI2/system/components/justep/common/css/forms,$model/UI2/system/components/justep/locker/css/locker,$model/UI2/system/components/justep/menu/css/menu,$model/UI2/system/components/justep/scrollView/css/scrollView,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/dialog/css/dialog,$model/UI2/system/components/justep/bar/css/bar,$model/UI2/system/components/justep/popMenu/css/popMenu,$model/UI2/system/components/justep/lib/css/icons,$model/UI2/system/components/justep/lib/css4/e-commerce,$model/UI2/system/components/justep/toolBar/css/toolBar,$model/UI2/system/components/justep/popOver/css/popOver,$model/UI2/system/components/justep/panel/css/panel,$model/UI2/system/components/bootstrap/carousel/css/carousel,$model/UI2/system/components/justep/wing/css/wing,$model/UI2/system/components/bootstrap/scrollSpy/css/scrollSpy,$model/UI2/system/components/justep/titleBar/css/titleBar,$model/UI2/system/components/justep/lib/css1/linear,$model/UI2/system/components/justep/numberSelect/css/numberList,$model/UI2/system/components/justep/list/css/list,$model/UI2/system/components/justep/dataTables/css/dataTables"><link href="./dl_files/layer.css" type="text/css" rel="styleSheet" id="layermcss"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/system/resources/system.res" src="./dl_files/system.res.js"></script><link type="text/css" rel="stylesheet" href="./dl_files/bootstrap.css" include="$model/UI2/system/components/bootstrap/lib/css/bootstrap"><link type="text/css" rel="stylesheet" href="./dl_files/bootstrap-theme.css" include="$model/UI2/system/components/bootstrap/lib/css/bootstrap-theme"><link type="text/css" rel="stylesheet" href="./dl_files/ios.css" include="$model/UI2/system/components/justep/common/css/ios"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/index.w.js" src="./dl_files/index.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/index" src="./dl_files/index.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/js/dlm" src="./dl_files/dlm.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/js/constant" src="./dl_files/constant.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/main.w.js" src="./dl_files/main.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/main" src="./dl_files/main.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/page/receiveOrder/receiveOrderList.w.js" src="./dl_files/receiveOrderList.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/page/orderManage/orderManage.w.js" src="./dl_files/orderManage.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/page/message/orderMsgList.w.js" src="./dl_files/orderMsgList.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/page/personal/personal.w.js" src="./dl_files/personal.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/page/receiveOrder/receiveOrderList" src="./dl_files/receiveOrderList.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/page/orderManage/orderManage" src="./dl_files/orderManage.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/page/message/orderMsgList" src="./dl_files/orderMsgList.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/page/personal/personal" src="./dl_files/personal.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/js/gameinfo_app" src="./dl_files/gameinfo_app.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/page/orderManage/receiveManage.w.js" src="./dl_files/receiveManage.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/page/orderManage/releaseManage.w.js" src="./dl_files/releaseManage.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/page/orderManage/receiveManage" src="./dl_files/receiveManage.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/page/orderManage/releaseManage" src="./dl_files/releaseManage.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/v-1.3.8-zh_CN-/dlmm/page/login/login.w.js" src="./dl_files/login.w.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="$model/UI2/dlmm/page/login/login" src="./dl_files/login.js"></script></head>
+	
+    <body style="width:100%;height:100%;margin: 0;">
+        <script src="./dl_files/intro.js"></script>
+    	<div id="applicationHost" class="applicationHost" style="width:100%;height:100%;" __component-context__="block"><div xid="window" class="window cnaAfQr" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:&#39;$model/UI2/system/components/justep/window/window&#39;}" __cid="cnaAfQr" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,," id="C79DBC084F800001BE9DA4DC15101498_window">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:&#39;$model/UI2/system/components/justep/model/model&#39;}" data-events="onActive:modelActive;onInactive:modelInactive;onLoad:modelLoad" __cid="cnaAfQr" class="cnaAfQr" id="C79DBC084F800001BE9DA4DC15101498_model"> 
+    <link rel="stylesheet" type="text/css" href="./dl_files/dlm-common.css" __cid="cnaAfQr" class="cnaAfQr">  
+    <link rel="stylesheet" type="text/css" href="./dl_files/dlm.css" __cid="cnaAfQr" class="cnaAfQr">  
+    <link rel="stylesheet" type="text/css" href="./dl_files/timer.css" __cid="cnaAfQr" class="cnaAfQr">  
+    <link rel="stylesheet" type="text/css" href="./dl_files/LOLTgp.css" __cid="cnaAfQr" class="cnaAfQr">  
+    <script type="text/javascript" src="./dl_files/zepto.min.all.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/dlm-common.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/fastclick.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/mlayer-2016.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/iscroll.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/iscrollAssist.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/timer.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/webuploader.min.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/clipboard.min.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/LOLChampion.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/LOLKeywords.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/LOLRunes.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/Wzry_Hero_Info.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/Wzry_World_Map.js" __cid="cnaAfQr" class="cnaAfQr"></script>  
+    <script type="text/javascript" src="./dl_files/Wzry_Other_Map.js" __cid="cnaAfQr" class="cnaAfQr"></script> 
+  </div>  
+  <div class="toptitle cnaAfQr" __cid="cnaAfQr"></div>  
+  <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cnaAfQr slidable" xid="pages" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/contents&#39;}" data-config="{&quot;active&quot;:0,&quot;swipe&quot;:false}" __cid="cnaAfQr" id="C79DBC084F800001BE9DA4DC15101498_pages"> 
+    <div class="x-contents-content cnaAfQr active" xid="main" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/content&#39;}" __cid="cnaAfQr" id="C79DBC084F800001BE9DA4DC15101498_main" style="transition-duration: 0ms; opacity: 1;"> 
+      <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cnaAfQr" xid="mainContainer" __component-context__="block" data-bind="component:{name:&#39;$model/UI2/system/components/justep/windowContainer/windowContainer&#39;}" data-config="{&quot;src&quot;:&quot;$model/UI2/dlmm/main.w&quot;}" __cid="cnaAfQr" id="C79DBC084F800001BE9DA4DC15101498_mainContainer" __outter="1"><div xid="window" class="window cr6FNVn" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:&#39;$model/UI2/system/components/justep/window/window&#39;}" __cid="cr6FNVn" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel," data-view="/v-1.3.8-zh_CN-/dlmm/main.w.html" id="C79DBC0ACF900001B7DA1B6A8D3031E0_window">
+  <style __cid="cr6FNVn" class="cr6FNVn">.com-nav.cr6FNVn a.active.cr6FNVn{color: rgb(51, 153, 255) !important} .com-nav.cr6FNVn a.active.cr6FNVn em.cr6FNVn:after{color: rgb(51, 153, 255) !important} .com-nav.cr6FNVn a.active.cr6FNVn p.cr6FNVn{color: rgb(51, 153, 255) !important} .com-nav.cr6FNVn a.cr6FNVn:first-child.active em.cr6FNVn:after{content: ""} .com-nav.cr6FNVn a.cr6FNVn:nth-child(2).active em.cr6FNVn:after{content: ""} .com-nav.cr6FNVn a.cr6FNVn:nth-child(4).active em.cr6FNVn:after{content: ""} .com-nav.cr6FNVn a.cr6FNVn:nth-child(5).active em.cr6FNVn:after{content: ""} .com-nav.cr6FNVn{z-index: 99}</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:&#39;$model/UI2/system/components/justep/model/model&#39;}" data-events="onLoad:modelLoad" __cid="cr6FNVn" class="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_model"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar cr6FNVn" xid="panel1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/panel/panel&#39;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_panel1"> 
+    <div class="x-panel-content cr6FNVn" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:&#39;$model/UI2/system/components/justep/panel/child&#39;}" __cid="cr6FNVn" _xid="C79DBC0AD0900001BEEA2D404F40193E" id="C79DBC0ACF900001B7DA1B6A8D3031E0_content1" style="top: 0px;"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cr6FNVn" xid="contents1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/contents&#39;}" data-config="{&quot;active&quot;:0,&quot;routable&quot;:true,&quot;slidable&quot;:false,&quot;swipe&quot;:false,&quot;wrap&quot;:false}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_contents1"> 
+        <div class="x-contents-content cr6FNVn x-content-on-left x-content-on-remoting-sibling" xid="receiveContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/content&#39;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_receiveContent"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cr6FNVn" xid="receiveContainer" __component-context__="block" data-bind="component:{name:&#39;$model/UI2/system/components/justep/windowContainer/windowContainer&#39;}" data-config="{&quot;src&quot;:&quot;$model/UI2/dlmm/page/receiveOrder/receiveOrderList.w&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_receiveContainer">
+            <div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cnyaeMz" data-bind="component:{name:&#39;$model/UI2/system/components/justep/window/window&#39;}" __cid="cnyaeMz" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window," id="C79DBC0AD0D00001ADCD50D14FB07B00_window">  
+              <style __cid="cnyaeMz" class="cnyaeMz">.pulldown.cnyaeMz{font-size: 0.52rem; color: 0.999; position: fixed; left: 0; top: 4rem; width: 100%; text-align: center} .pulldown.cnyaeMz .pulldown-icon.cnyaeMz, .pullup.cnyaeMz .pullup-icon.cnyaeMz{display: inline-block; vertical-align: middle; margin-right: 0.16rem; margin-top: -0.12rem; width: 0.8rem; height: 0.8rem; background: url(http://pic.7881.com/dlm-app/images/pull-down.png) no-repeat; background-size: cover; -webkit-transition-property: -webkit-transform; -webkit-transition-duration: 250ms} .pulldown.cnyaeMz .pulldown-icon.cnyaeMz{-webkit-transform: rotate(0deg) translateZ(0)} .pullup.cnyaeMz .pullup-icon.cnyaeMz{-webkit-transform: rotate(-180deg) translateZ(0)} .pulldown.flip.cnyaeMz .pulldown-icon.cnyaeMz{-webkit-transform: rotate(-180deg) translateZ(0)} .pullup.flip.cnyaeMz .pullup-icon.cnyaeMz{-webkit-transform: rotate(0deg) translateZ(0)} .pulldown.loading.cnyaeMz .pulldown-icon.cnyaeMz{background: url(http://pic.7881.com/dlm-app/images/loading.png) no-repeat; background-size: cover; -webkit-transform: rotate(0deg) translateZ(0); -webkit-transition-duration: 0ms; -webkit-animation-name: loading; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear} .padbot22.cnyaeMz{webkit-transform: translateZ(0); -moz-transform: translateZ(0); -ms-transform: translateZ(0); -o-transform: translateZ(0); transform: translateZ(0)}</style>  
+              <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:&#39;$model/UI2/system/components/justep/model/model&#39;}" data-events="onActive:modelActive;onInactive:modelInactive;onLoad:modelLoad" __cid="cnyaeMz" class="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_model"></div>  
+              <div class="viewrap padbot22 x-full cnyaeMz" __cid="cnyaeMz">  
+                <div class="x-panel-top cnyaeMz" __cid="cnyaeMz"> 
+                  <div class="toptitle cnyaeMz" __cid="cnyaeMz"></div>  
+                  <div class="common-header fixed-header cnyaeMz" xid="fixed-header" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_fixed-header"> 
+                    <a class="sea iconfont cnyaeMz" xid="search" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;toSearch&#39;)}" id="C79DBC0AD0D00001ADCD50D14FB07B00_search"></a>  
+                    <div class="header-tab cnyaeMz" __cid="cnyaeMz"> 
+                      <ul __cid="cnyaeMz" class="cnyaeMz"> 
+                        <li xid="replaceArea" __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;orginClick&#39;)}" id="C79DBC0AD0D00001ADCD50D14FB07B00_replaceArea">抢单</li>  
+                        <li class="on cnyaeMz" xid="biaozhun" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;orginClick&#39;)}" id="C79DBC0AD0D00001ADCD50D14FB07B00_biaozhun">标准</li>  
+                        <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;orginClick&#39;)}">私有</li> 
+                      </ul> 
+                    </div> 
+                  </div> 
+                </div>  
+                <div class="jd-tips cnyaeMz" __cid="cnyaeMz" style="display: none;"> 
+                  <em class="iconfont tips-icon cnyaeMz" __cid="cnyaeMz"></em>已完成王者荣耀单10单或提前7天完成7单者可抢单
+                  <em class="iconfont tips-close cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;closeTips&#39;)}"></em> 
+                </div>  
+                <div class="search-header cnyaeMz" xid="search-header" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_search-header"> 
+                  <input type="search" placeholder="订单号/发布人/标题/角色名" xid="searchText" __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{keyup:$model._callModelFn.bind($model, &#39;div1Keyup&#39;)}" id="C79DBC0AD0D00001ADCD50D14FB07B00_searchText">  
+                  <em class="iconfont search-icon cnyaeMz" __cid="cnyaeMz"></em>  
+                  <a class="header-txt cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;cancelClick&#39;)}">取消</a> 
+                </div>  
+                <div class="orders-hall cnyaeMz" __cid="cnyaeMz"> 
+                  <div class="ord-screen cnyaeMz" __cid="cnyaeMz"> 
+                    <ul class="main-screen cnyaeMz" xid="main-screen" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_main-screen"> 
+                      <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                        <span __cid="cnyaeMz" class="cnyaeMz">王者荣耀</span>  
+                        <em class="iconfont jt-down cnyaeMz" __cid="cnyaeMz"></em>  
+                        <em class="iconfont jt-up cnyaeMz" __cid="cnyaeMz"></em> 
+                      </li>  
+                      <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                        <span __cid="cnyaeMz" class="cnyaeMz">综合排序</span>  
+                        <em class="iconfont jt-down cnyaeMz" __cid="cnyaeMz"></em>  
+                        <em class="iconfont jt-up cnyaeMz" __cid="cnyaeMz"></em> 
+                      </li>  
+                      <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                        <span __cid="cnyaeMz" class="cnyaeMz">高级筛选</span>  
+                        <em class="iconfont jt-down cnyaeMz" __cid="cnyaeMz"></em>  
+                        <em class="iconfont jt-up cnyaeMz" __cid="cnyaeMz"></em> 
+                      </li> 
+                    </ul> 
+                  </div>  
+                  <div xid="pulldown" class="pulldown cnyaeMz" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_pulldown" style="display: block;"> 
+                    <span class="pulldown-icon cnyaeMz" __cid="cnyaeMz"></span>  
+                    <span class="pulldown-label cnyaeMz" __cid="cnyaeMz">下拉刷新...</span> 
+                  </div>  
+                  <div xid="wrapper" class="hall-list-wrap cnyaeMz" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_wrapper"> 
+                    <div class="hall-list cnyaeMz" id="scroller" __cid="cnyaeMz" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 100ms; transform: translate(0px, 0px) translateZ(0px);"> 
+                      <div class="hall-list-item cnyaeMz" __cid="cnyaeMz"> 
+                        <h3 style="text-align: center;" xid="totalCount" __cid="cnyaeMz" class="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_totalCount">共有1796条数据</h3> 
+                      </div>  
+                      <div class="x-list x-list-template cnyaeMz" component="$model/UI2/system/components/justep/list/list" xid="list4" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list4($element),afterRender:$model.foreach_afterRender_list4.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_list4" data="data1" __component-context__="inline"> 
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1634__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">黄金二2星 - 铂金四1星</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：宝诚网游专营店B</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：40元  总时间：5小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥10.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1644__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金1.3星-星耀5.1星  符文120</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/安卓-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：天悦网游：王者荣耀</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：100元  总时间：29小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥119.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1654__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">白金1到星耀5--------  铭文110</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：天悦网游：王者荣耀</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：120元  总时间：29小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥135.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1664__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金3 0星-钻石5 指定露娜</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：亿唐网游专营店</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：40元  总时间：18小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥33.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1674__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">黄金4-钻石4 铭文94 英雄12 25号12点之前打完 打完就结账</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：王者荣耀代练员</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：40元  总时间：22小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥105.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1684__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石5/0星-钻石3（铭文：124）</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：王者已归来</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：100元  总时间：12小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥50.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1694__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">王者15星--王者20星 铭文150 英雄全</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：千鹰网游专营-王者</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：300元  总时间：15小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥140.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1704__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金4-铂金3   铭文 95</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/安卓-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：王者优质单</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：60元  总时间：5小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥7.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1714__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金4-铂金3 符文110</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：乐享网游专营店</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：60元  总时间：4小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥10.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1724__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金4/ 1星  到钻石4/ 1星  铭文130</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：天悦网游：王者荣耀</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：50元  总时间：12小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥51.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1734__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">砖石5 2--砖石4  铭文148  英雄49</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：千鹰网游专营-王者</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：100元  总时间：8小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥14.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1744__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">【排位】白银3-白金4</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：易创网游专营店-王者</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：80元  总时间：21小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥30.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1754__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金2 3--——钻石5  铭文150 英雄35</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/安卓-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：千鹰网游专营-王者</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：60元  总时间：10小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥14.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1764__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">黄金2-白金4 铭文60 2区</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：享受寂寞心</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：30元  总时间：6小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥10.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1774__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">王者26星-王者36星（全英雄全皮肤 18套150符文）</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：众信网游</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：400元  总时间：32小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥450.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1784__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金1-钻石1  符文117</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：乐享网游专营店</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：60元  总时间：24小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥98.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1794__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金2 2星到钻石5   铭文150</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：王者优质单</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：60元  总时间：10小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥19.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1804__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石1.1星-星耀5.1星</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：天悦网游：王者荣耀</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：70元  总时间：5小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥27.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1814__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">黄金2-铂金2 指定 杨戬  不按指定0结算扣双金被抢截图</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：举猫问天谁接单</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：50元  总时间：12小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥28.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1824__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">星耀一2星到王者5星，铭文三套150</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/4区冰雪之华</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：涅槃代打</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：100元  总时间：24小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥100.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1834__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">白银1-黄金2</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：王者已归来</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：50元  总时间：8小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥10.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1844__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石4-钻石3铭文 120</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/安卓-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：王者已归来</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：100元  总时间：6小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥21.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1854__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石二0星 - 钻石一4星 指定诸葛亮或者吕布  胜率70以上 实力来</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：宝诚网游专营店B</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：70元  总时间：13小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥65.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1864__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">铂金1/0-钻石5 猴子，花木兰</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：猎象竞技</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：70元  总时间：5小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥14.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1874__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石1-星耀5 铭文：134</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：东十网游专营店-王者</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：70元  总时间：8小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥32.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1884__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">刷成就我能反杀铭文150</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/安卓-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：Wo守护的一切</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：40元  总时间：8小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥12.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1894__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石3 3星-星耀5 符文109</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：亿唐网游专营店</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：70元  总时间：24小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥78.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1904__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石1-星耀5 铭文：133</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：王者已归来</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：100元  总时间：8小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥31.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1914__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石五一星到钻石三</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/安卓-微信/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：亿唐网游专营店</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：70元  总时间：16小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥38.00</h4> 
+                        </div> 
+                       
+                        <div class="hall-list-item cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;receiveOrder&#39;)}" __inline-id__="1924__ko__1500874203212"> 
+                          <h2 __cid="cnyaeMz" class="cnyaeMz"> 
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                            <em class="iconfont cnyaeMz" __cid="cnyaeMz" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                            <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;ordertitle&quot;)">钻石二1星 - 星耀五1星</span> 
+                          </h2>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;所在区服：&quot; +  val(&quot;gamename&quot;) + &quot;/&quot; +  val(&quot;areaname&quot;) + &quot;/&quot; +  val(&quot;servername&quot;)">所在区服：王者荣耀/苹果-QQ/默认服</p>  
+                          <p __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;发布者：&quot; +   val(&quot;sellername&quot;)">发布者：宝诚网游专营店B</p>  
+                          <h5 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;总保证金：&quot; + ( justep.String.toFloat( val(&quot;safedeposit&quot;)) +  justep.String.toFloat( val(&quot;efficiency&quot;))) +  &quot;元  总时间：&quot; +  val(&quot;requiretime&quot;) + &quot;小时&quot;">总保证金：60元  总时间：10小时</h5>  
+                          <h4 __cid="cnyaeMz" class="cnyaeMz" data-bind="text:&quot;¥&quot; + val(&quot;unitprice&quot;)">¥45.00</h4> 
+                        </div> 
+                      </div>  
+                      <div class="ajax-loading pullup cnyaeMz" xid="pullup" style="display: none;" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_pullup"> 
+                        <div class="spinner cnyaeMz" __cid="cnyaeMz"> 
+                          <div class="spinner-container container1 cnyaeMz" __cid="cnyaeMz"> 
+                            <div class="circle1 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle2 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle3 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle4 cnyaeMz" __cid="cnyaeMz"></div> 
+                          </div>  
+                          <div class="spinner-container container2 cnyaeMz" __cid="cnyaeMz"> 
+                            <div class="circle1 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle2 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle3 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle4 cnyaeMz" __cid="cnyaeMz"></div> 
+                          </div>  
+                          <div class="spinner-container container3 cnyaeMz" __cid="cnyaeMz"> 
+                            <div class="circle1 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle2 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle3 cnyaeMz" __cid="cnyaeMz"></div>  
+                            <div class="circle4 cnyaeMz" __cid="cnyaeMz"></div> 
+                          </div> 
+                        </div>  
+                        <span __cid="cnyaeMz" class="cnyaeMz">疯狂加载中...</span> 
+                      </div>  
+                      <div xid="listEnd" align="center" style="display:none;padding:10px;width:100%;height:35px;" __cid="cnyaeMz" class="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_listEnd"></div> 
+                    </div> 
+                  </div> 
+                </div>  
+                <div class="gray-bg cnyaeMz" xid="gray-bg" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_gray-bg"></div> 
+              </div>  
+              <div class="hide-item game-qf-box cnyaeMz" xid="hide-item" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_hide-item">  
+                <ul class="game-name x-list x-list-template cnyaeMz" component="$model/UI2/system/components/justep/list/list" xid="list1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;gamename&quot;}" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_list1" data="gamename" __component-context__="inline"> 
+                  <li __cid="cnyaeMz" class="cnyaeMz on" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1168__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">王者荣耀</span> 
+                  </li> 
+                 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1171__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">球球大作战</span> 
+                  </li> 
+                 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1174__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">皇室战争</span> 
+                  </li> 
+                 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1177__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">守望先锋</span> 
+                  </li> 
+                 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1180__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">英雄联盟</span> 
+                  </li> 
+                </ul>  
+                <ul class="game-name x-list x-list-template cnyaeMz" component="$model/UI2/system/components/justep/list/list" xid="list2" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;areaname&quot;}" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_list2" data="areaname" __component-context__="inline"> 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;areaClick&#39;)}" __inline-id__="1183__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">全区全服</span> 
+                  </li> 
+                 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;areaClick&#39;)}" __inline-id__="1186__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">安卓-QQ</span> 
+                  </li> 
+                 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;areaClick&#39;)}" __inline-id__="1189__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">苹果-QQ</span> 
+                  </li> 
+                 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;areaClick&#39;)}" __inline-id__="1192__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">安卓-微信</span> 
+                  </li> 
+                 
+                  <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;areaClick&#39;)}" __inline-id__="1195__ko__1500874203212"> 
+                    <span __cid="cnyaeMz" class="cnyaeMz" data-bind="text:val(&quot;name&quot;)">苹果-微信</span> 
+                  </li> 
+                </ul>  
+                <ul class="game-name x-list x-list-template cnyaeMz" component="$model/UI2/system/components/justep/list/list" xid="list3" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;servername&quot;}" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_list3" data="servername" __component-context__="inline"></ul> 
+              </div>  
+              <div class="hide-item zh-box cnyaeMz" xid="hide-item" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_hide-item">  
+                <ul __cid="cnyaeMz" class="cnyaeMz"> 
+                  <li class="on cnyaeMz" value="" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">智能排序</li>  
+                  <li value="2" __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">价格最低</li>  
+                  <li value="1" __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">价格最高</li>  
+                  <li value="9" __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">保证金最低</li>  
+                  <li value="4" __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">总时间最少</li> 
+                </ul> 
+              </div>  
+              <div class="hide-item gj-box cnyaeMz" xid="hide-item" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_hide-item">  
+                <div class="gj-box-item cnyaeMz" __cid="cnyaeMz"> 
+                  <h5 __cid="cnyaeMz" class="cnyaeMz">代练价格</h5>  
+                  <ul __cid="cnyaeMz" class="cnyaeMz"> 
+                    <li class="on cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">不 限</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">1~100元</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">101~300元</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">301~500元</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">500元以上</li> 
+                  </ul> 
+                </div>  
+                <div class="gj-box-item cnyaeMz" __cid="cnyaeMz"> 
+                  <h5 __cid="cnyaeMz" class="cnyaeMz">初始段位</h5>  
+                  <ul __cid="cnyaeMz" class="cnyaeMz"> 
+                    <li class="on cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">不 限</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">青 铜</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">白 银</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">黄 金</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">铂 金</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">钻 石</li>  
+                    <li class="gjsx_ds cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">大师</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">王者</li> 
+                  </ul> 
+                </div>  
+                <div class="gj-box-item cnyaeMz" __cid="cnyaeMz"> 
+                  <h5 __cid="cnyaeMz" class="cnyaeMz">目标段位</h5>  
+                  <ul __cid="cnyaeMz" class="cnyaeMz"> 
+                    <li class="on cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">不 限</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">青 铜</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">白 银</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">黄 金</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">铂 金</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">钻 石</li>  
+                    <li class="gjsx_ds cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">大师</li>  
+                    <li __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">王者</li> 
+                  </ul> 
+                </div>  
+                <div class="qr-qk x-scroll-view cnyaeMz" __cid="cnyaeMz"> 
+                  <a href="javascript:void(0)" __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjqkClick&#39;)}">清 空</a>  
+                  <a href="javascript:void(0)" __cid="cnyaeMz" class="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjqrClick&#39;)}">确 认</a> 
+                </div> 
+              </div>  
+              <div class="scrollTop cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;topClick&#39;)}">  
+                <em class="iconfont cnyaeMz" __cid="cnyaeMz"></em>  
+                <p __cid="cnyaeMz" class="cnyaeMz">置顶</p> 
+              </div>  
+              <div class="ad-fixed-b cnyaeMz" style="" xid="noticeMsg" __cid="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_noticeMsg">  
+                <input type="hidden" xid="noticeid" value="106" __cid="cnyaeMz" class="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_noticeid">  
+                <input type="hidden" xid="linkurl" value="" __cid="cnyaeMz" class="cnyaeMz" id="C79DBC0AD0D00001ADCD50D14FB07B00_linkurl">  
+                <em class="iconfont icon-trumpet cnyaeMz" __cid="cnyaeMz"></em>  
+                <div class="ad-content cnyaeMz" xid="scroll-left" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;noticeClick&#39;)}" id="C79DBC0AD0D00001ADCD50D14FB07B00_scroll-left">“你发单，我买单”第四期开始啦</div>  
+                <em class="iconfont icon-close cnyaeMz" __cid="cnyaeMz" data-bind="event:{click:$model._callModelFn.bind($model, &#39;noticeCloseClick&#39;)}"></em> 
+              </div> 
+            </div>
+          </div> 
+        </div>  
+        <div class="x-contents-content cr6FNVn active" xid="orderManageContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/content&#39;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_orderManageContent"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cr6FNVn" xid="orderManageContainer" __component-context__="block" data-bind="component:{name:&#39;$model/UI2/system/components/justep/windowContainer/windowContainer&#39;}" data-config="{&quot;src&quot;:&quot;$model/UI2/dlmm/page/orderManage/orderManage.w&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_orderManageContainer">
+            <div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window caeEB7b" data-bind="component:{name:&#39;$model/UI2/system/components/justep/window/window&#39;}" __cid="caeEB7b" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel," id="C79DBC0AD0F00001AC562C00189040F0_window">  
+              <style __cid="caeEB7b" class="caeEB7b">.header-tab.caeEB7b ul.caeEB7b li.active.caeEB7b{background: rgb(51, 153, 255); color: rgb(255, 255, 255)}</style>  
+              <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:&#39;$model/UI2/system/components/justep/model/model&#39;}" __cid="caeEB7b" class="caeEB7b" id="C79DBC0AD0F00001AC562C00189040F0_model"></div>  
+              <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p36aa879c31544f4db98805937b049762-iosstatusbar caeEB7b" xid="panel1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/panel/panel&#39;}" __cid="caeEB7b" id="C79DBC0AD0F00001AC562C00189040F0_panel1">  
+                <div class="common-header fixed-header caeEB7b" __cid="caeEB7b"> 
+                  <a class="sea iconfont caeEB7b" xid="search" __cid="caeEB7b" data-bind="event:{click:$model._callModelFn.bind($model, &#39;toSearch&#39;)}" id="C79DBC0AD0F00001AC562C00189040F0_search"></a>  
+                  <div class="header-tab tab-2 caeEB7b" __cid="caeEB7b"> 
+                    <ul component="$model/UI2/system/components/justep/button/buttonGroup" xid="buttonGroup1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/buttonGroup&#39;}" data-config="{&quot;tabbed&quot;:true}" __cid="caeEB7b" class="caeEB7b tabbed" id="C79DBC0AD0F00001AC562C00189040F0_buttonGroup1"> 
+                      <li component="$model/UI2/system/components/justep/button/button" xid="button1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/button&#39;}" data-config="{&quot;target&quot;:&quot;receiveManageContent&quot;}" __cid="caeEB7b" class="caeEB7b" id="C79DBC0AD0F00001AC562C00189040F0_button1">接单</li>  
+                      <li component="$model/UI2/system/components/justep/button/button" xid="button2" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/button&#39;}" data-config="{&quot;target&quot;:&quot;releaseManageContent&quot;}" __cid="caeEB7b" class="caeEB7b active" id="C79DBC0AD0F00001AC562C00189040F0_button2">发单</li> 
+                    </ul> 
+                  </div> 
+                </div>  
+                <div class="x-panel-content caeEB7b" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:&#39;$model/UI2/system/components/justep/panel/child&#39;}" __cid="caeEB7b" _xid="C79DBC0AD390000158AAB5006FACC710" id="C79DBC0AD0F00001AC562C00189040F0_content1" style="top: 0px; bottom: 0px;"> 
+                  <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full caeEB7b slidable" xid="contents1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/contents&#39;}" data-config="{&quot;active&quot;:0,&quot;routable&quot;:true,&quot;slidable&quot;:false,&quot;wrap&quot;:false}" __cid="caeEB7b" id="C79DBC0AD0F00001AC562C00189040F0_contents1"> 
+                    <div class="x-contents-content caeEB7b x-content-on-left" xid="receiveManageContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/content&#39;}" __cid="caeEB7b" id="C79DBC0AD0F00001AC562C00189040F0_receiveManageContent" style="opacity: 1;"> 
+                      <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container caeEB7b" xid="receiveManageContainer" __component-context__="block" data-bind="component:{name:&#39;$model/UI2/system/components/justep/windowContainer/windowContainer&#39;}" data-config="{&quot;src&quot;:&quot;$model/UI2/dlmm/page/orderManage/receiveManage.w&quot;}" __cid="caeEB7b" id="C79DBC0AD0F00001AC562C00189040F0_receiveManageContainer"> 
+                        <div xid="window" class="window ceuyeeq" component="$model/UI2/system/components/justep/window/window" design="device:mobile;" data-bind="component:{name:&#39;$model/UI2/system/components/justep/window/window&#39;}" __cid="ceuyeeq" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window," id="C79DBC0AD3F000012EEF182611902710_window"> 
+                          <style __cid="ceuyeeq" class="ceuyeeq">.pulldown.ceuyeeq{font-size: 0.52rem; color: 0.999; position: fixed; left: 0; top: 4rem; width: 100%; text-align: center} .pulldown.ceuyeeq .pulldown-icon.ceuyeeq, .pullup.ceuyeeq .pullup-icon.ceuyeeq{display: inline-block; vertical-align: middle; margin-right: 0.16rem; margin-top: -0.12rem; width: 0.8rem; height: 0.8rem; background: url(http://pic.7881.com/dlm-app/images/pull-down.png) no-repeat; background-size: cover; -webkit-transition-property: -webkit-transform; -webkit-transition-duration: 250ms} .pulldown.ceuyeeq .pulldown-icon.ceuyeeq{-webkit-transform: rotate(0deg) translateZ(0)} .pullup.ceuyeeq .pullup-icon.ceuyeeq{-webkit-transform: rotate(-180deg) translateZ(0)} .pulldown.flip.ceuyeeq .pulldown-icon.ceuyeeq{-webkit-transform: rotate(-180deg) translateZ(0)} .pullup.flip.ceuyeeq .pullup-icon.ceuyeeq{-webkit-transform: rotate(0deg) translateZ(0)} .pulldown.loading.ceuyeeq .pulldown-icon.ceuyeeq{background: url(http://pic.7881.com/dlm-app/images/loading.png) no-repeat; background-size: cover; -webkit-transform: rotate(0deg) translateZ(0); -webkit-transition-duration: 0ms; -webkit-animation-name: loading; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear} .padbot22.ceuyeeq{webkit-transform: translateZ(0); -moz-transform: translateZ(0); -ms-transform: translateZ(0); -o-transform: translateZ(0); transform: translateZ(0)}</style>  
+                          <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:&#39;$model/UI2/system/components/justep/model/model&#39;}" data-events="onLoad:modelLoad" __cid="ceuyeeq" class="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_model"></div>  
+                          <div class="viewrap padbot22 x-full ceuyeeq" __cid="ceuyeeq"> 
+                            <div class="orders-hall ceuyeeq" __cid="ceuyeeq"> 
+                              <div class="ord-screen ceuyeeq" __cid="ceuyeeq"> 
+                                <ul class="main-screen ceuyeeq" xid="main-screen" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_main-screen"> 
+                                  <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                                    <span __cid="ceuyeeq" class="ceuyeeq">游戏区服</span>  
+                                    <em class="iconfont jt-down ceuyeeq" __cid="ceuyeeq"></em>  
+                                    <em class="iconfont jt-up ceuyeeq" __cid="ceuyeeq"></em> 
+                                  </li>  
+                                  <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                                    <span __cid="ceuyeeq" class="ceuyeeq">综合排序</span>  
+                                    <em class="iconfont jt-down ceuyeeq" __cid="ceuyeeq"></em>  
+                                    <em class="iconfont jt-up ceuyeeq" __cid="ceuyeeq"></em> 
+                                  </li>  
+                                  <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                                    <span __cid="ceuyeeq" class="ceuyeeq">高级筛选</span>  
+                                    <em class="iconfont jt-down ceuyeeq" __cid="ceuyeeq"></em>  
+                                    <em class="iconfont jt-up ceuyeeq" __cid="ceuyeeq"></em> 
+                                  </li> 
+                                </ul> 
+                              </div>  
+                              <div class="orders-add-01 ceuyeeq" __cid="ceuyeeq"> 
+                                <a href="http://m.dailianmama.com/v-1.3.8-zh_CN-/dlmm/index.w?language=zh_CN&amp;skin=&amp;ttt=random7311058&amp;p7953856=pp4065098&amp;t=1500516982592#" __cid="ceuyeeq" class="ceuyeeq"> 
+                                  <img src="./dl_files/leveling-lol-02.jpg" width="100%" __cid="ceuyeeq" class="ceuyeeq"> 
+                                </a> 
+                              </div>  
+                              <div class="ord-list-nav ceuyeeq" __cid="ceuyeeq"> 
+                                <ul __cid="ceuyeeq" class="ceuyeeq"> 
+                                  <li class="com-border0 ceuyeeq on" value="" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">全部</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="3" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">代练中</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="6" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">待验收</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="9" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">撤销中</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="4" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">异常</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="11" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">锁定</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="5,10" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">已撤销</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="7,8" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">已结算</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="iszhc" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">已仲裁</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceuyeeq" value="qzcx" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceuyeeq" __cid="ceuyeeq"> 
+                                      <p class="p1 ceuyeeq" __cid="ceuyeeq">强制撤销</p> 
+                                    </div> 
+                                  </li> 
+                                </ul> 
+                              </div>  
+                              <div xid="pulldown" class="pulldown ord-list-pulldown ceuyeeq" style="top: 5.88rem; width: 78%; left: auto; right: 0px; display: none;" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_pulldown"> 
+                                <span class="pulldown-icon ceuyeeq" __cid="ceuyeeq"></span>  
+                                <span class="pulldown-label ceuyeeq" __cid="ceuyeeq">下拉刷新...</span> 
+                              </div>  
+                              <div xid="wrapper" class="ord-list-wrap ceuyeeq" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_wrapper"> 
+                                <div class="ord-list ceuyeeq" id="scroller" __cid="ceuyeeq" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 100ms; transform: translate(0px, 0px) translateZ(0px);"> 
+                                  <div class="x-list x-list-template ceuyeeq" component="$model/UI2/system/components/justep/list/list" xid="list4" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list4($element),afterRender:$model.foreach_afterRender_list4.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_list4" data="data1" __component-context__="inline"></div>  
+                                  <div class="ajax-loading pullup ceuyeeq" xid="pullup" style="display: none;" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_pullup"> 
+                                    <div class="spinner ceuyeeq" __cid="ceuyeeq"> 
+                                      <div class="spinner-container container1 ceuyeeq" __cid="ceuyeeq"> 
+                                        <div class="circle1 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle2 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle3 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle4 ceuyeeq" __cid="ceuyeeq"></div> 
+                                      </div>  
+                                      <div class="spinner-container container2 ceuyeeq" __cid="ceuyeeq"> 
+                                        <div class="circle1 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle2 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle3 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle4 ceuyeeq" __cid="ceuyeeq"></div> 
+                                      </div>  
+                                      <div class="spinner-container container3 ceuyeeq" __cid="ceuyeeq"> 
+                                        <div class="circle1 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle2 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle3 ceuyeeq" __cid="ceuyeeq"></div>  
+                                        <div class="circle4 ceuyeeq" __cid="ceuyeeq"></div> 
+                                      </div> 
+                                    </div>  
+                                    <span __cid="ceuyeeq" class="ceuyeeq">疯狂加载中...</span> 
+                                  </div>  
+                                  <div xid="listEnd" align="center" style="padding: 10px; width: 100%; height: 35px; display: block;" __cid="ceuyeeq" class="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_listEnd">无数据</div> 
+                                </div> 
+                              </div> 
+                            </div>  
+                            <div class="gray-bg ceuyeeq" xid="gray-bg" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_gray-bg"></div> 
+                          </div>  
+                          <div class="hide-item game-qf-box ceuyeeq" xid="hide-item" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_hide-item"> 
+                            <ul class="game-name x-list x-list-template ceuyeeq" component="$model/UI2/system/components/justep/list/list" xid="list1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;gamename&quot;}" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_list1" data="gamename" __component-context__="inline"> 
+                              <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1479__ko__1500874203212"> 
+                                <span __cid="ceuyeeq" class="ceuyeeq" data-bind="text:val(&quot;name&quot;)">王者荣耀</span> 
+                              </li> 
+                             
+                              <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1482__ko__1500874203212"> 
+                                <span __cid="ceuyeeq" class="ceuyeeq" data-bind="text:val(&quot;name&quot;)">球球大作战</span> 
+                              </li> 
+                             
+                              <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1485__ko__1500874203212"> 
+                                <span __cid="ceuyeeq" class="ceuyeeq" data-bind="text:val(&quot;name&quot;)">皇室战争</span> 
+                              </li> 
+                             
+                              <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1488__ko__1500874203212"> 
+                                <span __cid="ceuyeeq" class="ceuyeeq" data-bind="text:val(&quot;name&quot;)">守望先锋</span> 
+                              </li> 
+                             
+                              <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1491__ko__1500874203212"> 
+                                <span __cid="ceuyeeq" class="ceuyeeq" data-bind="text:val(&quot;name&quot;)">英雄联盟</span> 
+                              </li> 
+                            </ul>  
+                            <ul class="game-name x-list x-list-template ceuyeeq" component="$model/UI2/system/components/justep/list/list" xid="list2" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;areaname&quot;}" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_list2" data="areaname" __component-context__="inline"></ul>  
+                            <ul class="game-name x-list x-list-template ceuyeeq" component="$model/UI2/system/components/justep/list/list" xid="list3" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;servername&quot;}" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_list3" data="servername" __component-context__="inline"></ul> 
+                          </div>  
+                          <div class="hide-item zh-box ceuyeeq" xid="hide-item" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_hide-item"> 
+                            <ul __cid="ceuyeeq" class="ceuyeeq"> 
+                              <li class="on ceuyeeq" value="" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">智能排序</li>  
+                              <li value="2" __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">价格最低</li>  
+                              <li value="1" __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">价格最高</li>  
+                              <li value="4" __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">总时间最少</li> 
+                            </ul> 
+                          </div>  
+                          <div class="hide-item gj-box ceuyeeq" xid="hide-item" __cid="ceuyeeq" id="C79DBC0AD3F000012EEF182611902710_hide-item"> 
+                            <div class="gj-box-item ceuyeeq" __cid="ceuyeeq"> 
+                              <h5 __cid="ceuyeeq" class="ceuyeeq">代练价格</h5>  
+                              <ul __cid="ceuyeeq" class="ceuyeeq"> 
+                                <li class="on ceuyeeq" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">不 限</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">1~100元</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">101~300元</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">301~500元</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">500元以上</li> 
+                              </ul> 
+                            </div>  
+                            <div class="gj-box-item ceuyeeq" style="display:none;" __cid="ceuyeeq"> 
+                              <h5 __cid="ceuyeeq" class="ceuyeeq">目标段位</h5>  
+                              <ul __cid="ceuyeeq" class="ceuyeeq"> 
+                                <li class="on ceuyeeq" __cid="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">不 限</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">青 铜</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">白 银</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">黄 金</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">铂 金</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">钻 石</li>  
+                                <li __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">大师及大师以上</li> 
+                              </ul> 
+                            </div>  
+                            <div class="qr-qk x-scroll-view ceuyeeq" __cid="ceuyeeq"> 
+                              <a href="javascript:void(0)" __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjqkClick&#39;)}">清 空</a>  
+                              <a href="javascript:void(0)" __cid="ceuyeeq" class="ceuyeeq" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjqrClick&#39;)}">确 认</a> 
+                            </div> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div>  
+                    <div class="x-contents-content caeEB7b active" xid="releaseManageContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/content&#39;}" __cid="caeEB7b" id="C79DBC0AD0F00001AC562C00189040F0_releaseManageContent"> 
+                      <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container caeEB7b" xid="releaseManageContainer" __component-context__="block" data-bind="component:{name:&#39;$model/UI2/system/components/justep/windowContainer/windowContainer&#39;}" data-config="{&quot;src&quot;:&quot;$model/UI2/dlmm/page/orderManage/releaseManage.w&quot;}" __cid="caeEB7b" id="C79DBC0AD0F00001AC562C00189040F0_releaseManageContainer"> 
+                        <div xid="window" class="window ceQriii" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:&#39;$model/UI2/system/components/justep/window/window&#39;}" __cid="ceQriii" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window," id="C79DBC0AD400000178331DC01DD8AA30_window"> 
+                          <style __cid="ceQriii" class="ceQriii">.pulldown.ceQriii{font-size: 0.52rem; color: 0.999; position: fixed; left: 0; top: 4rem; width: 100%; text-align: center} .pulldown.ceQriii .pulldown-icon.ceQriii, .pullup.ceQriii .pullup-icon.ceQriii{display: inline-block; vertical-align: middle; margin-right: 0.16rem; margin-top: -0.12rem; width: 0.8rem; height: 0.8rem; background: url(http://pic.7881.com/dlm-app/images/pull-down.png) no-repeat; background-size: cover; -webkit-transition-property: -webkit-transform; -webkit-transition-duration: 250ms} .pulldown.ceQriii .pulldown-icon.ceQriii{-webkit-transform: rotate(0deg) translateZ(0)} .pullup.ceQriii .pullup-icon.ceQriii{-webkit-transform: rotate(-180deg) translateZ(0)} .pulldown.flip.ceQriii .pulldown-icon.ceQriii{-webkit-transform: rotate(-180deg) translateZ(0)} .pullup.flip.ceQriii .pullup-icon.ceQriii{-webkit-transform: rotate(0deg) translateZ(0)} .pulldown.loading.ceQriii .pulldown-icon.ceQriii{background: url(http://pic.7881.com/dlm-app/images/loading.png) no-repeat; background-size: cover; -webkit-transform: rotate(0deg) translateZ(0); -webkit-transition-duration: 0ms; -webkit-animation-name: loading; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear} .padbot22.ceQriii{webkit-transform: translateZ(0); -moz-transform: translateZ(0); -ms-transform: translateZ(0); -o-transform: translateZ(0); transform: translateZ(0)}</style>  
+                          <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:&#39;$model/UI2/system/components/justep/model/model&#39;}" data-events="onLoad:modelLoad" __cid="ceQriii" class="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_model"></div>  
+                          <div class="viewrap padbot22 x-full ceQriii" __cid="ceQriii"> 
+                            <div class="orders-hall ceQriii" __cid="ceQriii"> 
+                              <div class="ord-screen ceQriii" __cid="ceQriii"> 
+                                <ul class="main-screen ceQriii" xid="main-screen" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_main-screen"> 
+                                  <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                                    <span __cid="ceQriii" class="ceQriii">游戏区服</span>  
+                                    <em class="iconfont jt-down ceQriii" __cid="ceQriii"></em>  
+                                    <em class="iconfont jt-up ceQriii" __cid="ceQriii"></em> 
+                                  </li>  
+                                  <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                                    <span __cid="ceQriii" class="ceQriii">综合排序</span>  
+                                    <em class="iconfont jt-down ceQriii" __cid="ceQriii"></em>  
+                                    <em class="iconfont jt-up ceQriii" __cid="ceQriii"></em> 
+                                  </li>  
+                                  <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;screenClick&#39;)}"> 
+                                    <span __cid="ceQriii" class="ceQriii">高级筛选</span>  
+                                    <em class="iconfont jt-down ceQriii" __cid="ceQriii"></em>  
+                                    <em class="iconfont jt-up ceQriii" __cid="ceQriii"></em> 
+                                  </li> 
+                                </ul> 
+                              </div>  
+                              <div class="orders-add-01 ceQriii" __cid="ceQriii"> 
+                                <a href="http://m.dailianmama.com/v-1.3.8-zh_CN-/dlmm/index.w?language=zh_CN&amp;skin=&amp;ttt=random7311058&amp;p7953856=pp4065098&amp;t=1500516982592#" __cid="ceQriii" class="ceQriii"> 
+                                  <img src="./dl_files/leveling-lol-02.jpg" width="100%" __cid="ceQriii" class="ceQriii"> 
+                                </a> 
+                              </div>  
+                              <div class="ord-list-nav ceQriii" __cid="ceQriii"> 
+                                <ul __cid="ceQriii" class="ceQriii"> 
+                                  <li class="com-border0 on ceQriii" value="" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">全部</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="1" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">未接手</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="2" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">已下架</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="3" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">代练中</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="6" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">待验收</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="9" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">撤销中</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="4" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">异常</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="11" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">锁定</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="5,10" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">已撤销</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="7,8" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">已结算</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="iszhc" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">已仲裁</p> 
+                                    </div> 
+                                  </li>  
+                                  <li class="com-border0 ceQriii" value="qzcx" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;statusClick&#39;)}"> 
+                                    <div class="jz-box ceQriii" __cid="ceQriii"> 
+                                      <p class="p1 ceQriii" __cid="ceQriii">强制撤销</p> 
+                                    </div> 
+                                  </li> 
+                                </ul> 
+                              </div>  
+                              <div xid="pulldown" class="pulldown ord-list-pulldown ceQriii" style="top: 5.88rem; width: 78%; left: auto; right: 0px; display: block;" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_pulldown"> 
+                                <span class="pulldown-icon ceQriii" __cid="ceQriii"></span>  
+                                <span class="pulldown-label ceQriii" __cid="ceQriii">下拉刷新...</span> 
+                              </div>  
+                              <div xid="wrapper" class="ord-list-wrap ceQriii" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_wrapper"> 
+                                <div class="hall-list ceQriii" id="scroller" __cid="ceQriii" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 100ms; transform: translate(0px, 0px) translateZ(0px);"> 
+                                  <div class="x-list x-list-template ceQriii" component="$model/UI2/system/components/justep/list/list" xid="list4" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list4($element),afterRender:$model.foreach_afterRender_list4.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_list4" data="data1" __component-context__="inline"> 
+                                </div> 
+
+                                  <div class="ord-list-item ceQriii" __cid="ceQriii" __inline-id__="1948__ko__1500874203212"> 
+                                      <h2 class="com-border0 ceQriii" __cid="ceQriii"> 
+                                        <p __cid="ceQriii" class="ceQriii"> 
+                                          <em class="iconfont ceQriii" __cid="ceQriii" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                                          <em class="iconfont ceQriii" __cid="ceQriii" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                                          <content __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;ordertitle&quot;)">铂金1到星耀5</content> 
+                                        </p>  
+                                        <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;orderstatusname&quot;)">已结算</span> 
+                                      </h2>  
+                                      <div class="ord-info ceQriii" __cid="ceQriii"> 
+                                        <div __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;orderClick&#39;)}"> 
+                                          <p __cid="ceQriii" class="ceQriii">所在区服：
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;gamename&quot;)+&quot;/&quot;+val(&quot;areaname&quot;)+&quot;/&quot;+val(&quot;servername&quot;)">王者荣耀/苹果-微信/默认服</span> 
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">角色名称:
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;rolename&quot;)">肤白小娘子</span> 
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">剩余时间：
+                                            <em class="orange ceQriii" __cid="ceQriii" data-bind="text:val(&quot;surplustime&quot;)">22</em>小时
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">发 布 者：
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;sellername&quot;)">星耀接单</span> 
+                                          </p> 
+                                        </div>  
+               
+                                      </div>  
+                                      <b class="ord-mon ceQriii" __cid="ceQriii" data-bind="text:&quot;￥&quot; + val(&quot;unitprice&quot;)">￥350.00</b> 
+                                    </div> 
+                         
+
+                                  <div class="ord-list-item ceQriii" __cid="ceQriii" __inline-id__="1948__ko__1500874203212"> 
+                                      <h2 class="com-border0 ceQriii" __cid="ceQriii"> 
+                                        <p __cid="ceQriii" class="ceQriii"> 
+                                          <em class="iconfont ceQriii" __cid="ceQriii" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                                          <em class="iconfont ceQriii" __cid="ceQriii" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                                          <content __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;ordertitle&quot;)">星耀5到王者1星</content> 
+                                        </p>  
+                                        <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;orderstatusname&quot;)">已结算</span> 
+                                      </h2>  
+                                      <div class="ord-info ceQriii" __cid="ceQriii"> 
+                                        <div __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;orderClick&#39;)}"> 
+                                          <p __cid="ceQriii" class="ceQriii">所在区服：
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;gamename&quot;)+&quot;/&quot;+val(&quot;areaname&quot;)+&quot;/&quot;+val(&quot;servername&quot;)">王者荣耀/苹果-微信/默认服</span> 
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">角色名称:
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;rolename&quot;)">绿茶小婊砸</span> 
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">剩余时间：
+                                            <em class="orange ceQriii" __cid="ceQriii" data-bind="text:val(&quot;surplustime&quot;)">6</em>小时
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">发 布 者：
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;sellername&quot;)">无敌大肥单</span> 
+                                          </p> 
+                                        </div>  
+
+                                      </div>  
+                                      <b class="ord-mon ceQriii" __cid="ceQriii" data-bind="text:&quot;￥&quot; + val(&quot;unitprice&quot;)">￥500.00</b> 
+                                    </div> 
+
+                                  <div class="ord-list-item ceQriii" __cid="ceQriii" __inline-id__="1948__ko__1500874203212"> 
+                                      <h2 class="com-border0 ceQriii" __cid="ceQriii"> 
+                                        <p __cid="ceQriii" class="ceQriii"> 
+                                          <em class="iconfont ceQriii" __cid="ceQriii" data-bind="visible:val(&quot;orderorgin&quot;) != &quot;2&quot;"></em>  
+                                          <em class="iconfont ceQriii" __cid="ceQriii" data-bind="visible:val(&quot;orderorgin&quot;) == &quot;2&quot;" style="display: none;"></em>  
+                                          <content __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;ordertitle&quot;)">砖石5到钻石1</content> 
+                                        </p>  
+                                        <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;orderstatusname&quot;)">已结算</span> 
+                                      </h2>  
+                                      <div class="ord-info ceQriii" __cid="ceQriii"> 
+                                        <div __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;orderClick&#39;)}"> 
+                                          <p __cid="ceQriii" class="ceQriii">所在区服：
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;gamename&quot;)+&quot;/&quot;+val(&quot;areaname&quot;)+&quot;/&quot;+val(&quot;servername&quot;)">王者荣耀/苹果-微信/默认服</span> 
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">角色名称:
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;rolename&quot;)">孤单寂寞冷</span> 
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">剩余时间：
+                                            <em class="orange ceQriii" __cid="ceQriii" data-bind="text:val(&quot;surplustime&quot;)">12</em>小时
+                                          </p>  
+                                          <p __cid="ceQriii" class="ceQriii">发 布 者：
+                                            <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;sellername&quot;)">游侠代练工作室</span> 
+                                          </p> 
+                                        </div>  
+
+                                      </div>  
+                                      <b class="ord-mon ceQriii" __cid="ceQriii" data-bind="text:&quot;￥&quot; + val(&quot;unitprice&quot;)">￥140.00</b> 
+                                    </div> 
+
+
+
+
+
+
+                                  <div class="ajax-loading pullup ceQriii" xid="pullup" style="display: none;" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_pullup"> 
+                                    <div class="spinner ceQriii" __cid="ceQriii"> 
+                                      <div class="spinner-container container1 ceQriii" __cid="ceQriii"> 
+                                        <div class="circle1 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle2 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle3 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle4 ceQriii" __cid="ceQriii"></div> 
+                                      </div>  
+                                      <div class="spinner-container container2 ceQriii" __cid="ceQriii"> 
+                                        <div class="circle1 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle2 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle3 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle4 ceQriii" __cid="ceQriii"></div> 
+                                      </div>  
+                                      <div class="spinner-container container3 ceQriii" __cid="ceQriii"> 
+                                        <div class="circle1 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle2 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle3 ceQriii" __cid="ceQriii"></div>  
+                                        <div class="circle4 ceQriii" __cid="ceQriii"></div> 
+                                      </div> 
+                                    </div>  
+                                    <span __cid="ceQriii" class="ceQriii">疯狂加载中...</span> 
+                                  </div>  
+                                  <div xid="listEnd" align="center" style="display:none;padding:10px;width:100%;height:35px;" __cid="ceQriii" class="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_listEnd"></div> 
+                                </div> 
+                              </div> 
+                            </div>  
+                            <div class="gray-bg ceQriii" xid="gray-bg" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_gray-bg"></div> 
+                          </div>  
+                          <div class="hide-item game-qf-box ceQriii" xid="hide-item" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_hide-item"> 
+                            <ul class="game-name x-list x-list-template ceQriii" component="$model/UI2/system/components/justep/list/list" xid="list1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;gamename&quot;}" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_list1" data="gamename" __component-context__="inline"> 
+                              <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1612__ko__1500874203212"> 
+                                <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;name&quot;)">王者荣耀</span> 
+                              </li> 
+                             
+                              <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1615__ko__1500874203212"> 
+                                <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;name&quot;)">球球大作战</span> 
+                              </li> 
+                             
+                              <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1618__ko__1500874203212"> 
+                                <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;name&quot;)">皇室战争</span> 
+                              </li> 
+                             
+                              <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1621__ko__1500874203212"> 
+                                <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;name&quot;)">守望先锋</span> 
+                              </li> 
+                             
+                              <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gameClick&#39;)}" __inline-id__="1624__ko__1500874203212"> 
+                                <span __cid="ceQriii" class="ceQriii" data-bind="text:val(&quot;name&quot;)">英雄联盟</span> 
+                              </li> 
+                            </ul>  
+                            <ul class="game-name x-list x-list-template ceQriii" component="$model/UI2/system/components/justep/list/list" xid="list2" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;areaname&quot;}" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_list2" data="areaname" __component-context__="inline"></ul>  
+                            <ul class="game-name x-list x-list-template ceQriii" component="$model/UI2/system/components/justep/list/list" xid="list3" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;servername&quot;}" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_list3" data="servername" __component-context__="inline"></ul> 
+                          </div>  
+                          <div class="hide-item zh-box ceQriii" xid="hide-item" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_hide-item"> 
+                            <ul __cid="ceQriii" class="ceQriii"> 
+                              <li class="on ceQriii" value="" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">智能排序</li>  
+                              <li value="2" __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">价格最低</li>  
+                              <li value="1" __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">价格最高</li>  
+                              <li value="4" __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;zhpxClick&#39;)}">总时间最少</li> 
+                            </ul> 
+                          </div>  
+                          <div class="hide-item gj-box ceQriii" xid="hide-item" __cid="ceQriii" id="C79DBC0AD400000178331DC01DD8AA30_hide-item"> 
+                            <div class="gj-box-item ceQriii" __cid="ceQriii"> 
+                              <h5 __cid="ceQriii" class="ceQriii">代练价格</h5>  
+                              <ul __cid="ceQriii" class="ceQriii"> 
+                                <li class="on ceQriii" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">不 限</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">1~100元</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">101~300元</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">301~500元</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">500元以上</li> 
+                              </ul> 
+                            </div>  
+                            <div class="gj-box-item ceQriii" style="display:none;" __cid="ceQriii"> 
+                              <h5 __cid="ceQriii" class="ceQriii">目标段位</h5>  
+                              <ul __cid="ceQriii" class="ceQriii"> 
+                                <li class="on ceQriii" __cid="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">不 限</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">青 铜</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">白 银</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">黄 金</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">铂 金</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">钻 石</li>  
+                                <li __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjsxClick&#39;)}">大师及大师以上</li> 
+                              </ul> 
+                            </div>  
+                            <div class="qr-qk x-scroll-view ceQriii" __cid="ceQriii"> 
+                              <a href="javascript:void(0)" __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjqkClick&#39;)}">清 空</a>  
+                              <a href="javascript:void(0)" __cid="ceQriii" class="ceQriii" data-bind="event:{click:$model._callModelFn.bind($model, &#39;gjqrClick&#39;)}">确 认</a> 
+                            </div> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </div>  
+                <style __cid="caeEB7b" class="caeEB7b">.x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-top {height: 0px;}.x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p36aa879c31544f4db98805937b049762-iosstatusbar >.x-panel-content {top: 0px;}</style> 
+              </div> 
+            </div>
+          </div> 
+        </div>  
+        <div class="x-contents-content cr6FNVn x-content-on-remoting-sibling" xid="messageManageContent" style="height:100%;" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/content&#39;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_messageManageContent"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cr6FNVn" xid="messageManageContainer" __component-context__="block" data-bind="component:{name:&#39;$model/UI2/system/components/justep/windowContainer/windowContainer&#39;}" data-config="{&quot;autoLoad&quot;:true,&quot;src&quot;:&quot;$model/UI2/dlmm/page/message/orderMsgList.w&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_messageManageContainer">
+            <div xid="window" class="window cvmUrAj" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:&#39;$model/UI2/system/components/justep/window/window&#39;}" __cid="cvmUrAj" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window," id="C79DBC0AD10000011A2D1FD417E17E70_window">  
+              <style __cid="cvmUrAj" class="cvmUrAj">.message-info.cvmUrAj{width: 90% !important} .pulldown.cvmUrAj{font-size: 0.52rem; color: 0.999; position: fixed; left: 0; top: 4rem; width: 100%; text-align: center} .pulldown.cvmUrAj .pulldown-icon.cvmUrAj, .pullup.cvmUrAj .pullup-icon.cvmUrAj{display: inline-block; vertical-align: middle; margin-right: 0.16rem; margin-top: -0.12rem; width: 0.8rem; height: 0.8rem; background: url(http://pic.7881.com/dlm-app/images/pull-down.png) no-repeat; background-size: cover; -webkit-transition-property: -webkit-transform; -webkit-transition-duration: 250ms} .pulldown.cvmUrAj .pulldown-icon.cvmUrAj{-webkit-transform: rotate(0deg) translateZ(0)} .pullup.cvmUrAj .pullup-icon.cvmUrAj{-webkit-transform: rotate(-180deg) translateZ(0)} .pulldown.flip.cvmUrAj .pulldown-icon.cvmUrAj{-webkit-transform: rotate(-180deg) translateZ(0)} .pullup.flip.cvmUrAj .pullup-icon.cvmUrAj{-webkit-transform: rotate(0deg) translateZ(0)} .pulldown.loading.cvmUrAj .pulldown-icon.cvmUrAj{background: url(http://pic.7881.com/dlm-app/images/loading.png) no-repeat; background-size: cover; -webkit-transform: rotate(0deg) translateZ(0); -webkit-transition-duration: 0ms; -webkit-animation-name: loading; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear}</style>  
+              <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:&#39;$model/UI2/system/components/justep/model/model&#39;}" data-events="onLoad:modelLoad" __cid="cvmUrAj" class="cvmUrAj" id="C79DBC0AD10000011A2D1FD417E17E70_model"></div>  
+              <div class="viewrap message-wrap padbot28 cvmUrAj" __cid="cvmUrAj">  
+                <div class="common-header fixed-header cvmUrAj" __cid="cvmUrAj"> 
+                  <h2 __cid="cvmUrAj" class="cvmUrAj">消息</h2> 
+                </div>  
+                <div xid="pulldown" class="pulldown ordermsglist cvmUrAj" style="top: 2.68rem; display: none;" __cid="cvmUrAj" id="C79DBC0AD10000011A2D1FD417E17E70_pulldown"> 
+                  <span class="pulldown-icon cvmUrAj" __cid="cvmUrAj"></span>  
+                  <span class="pulldown-label cvmUrAj" __cid="cvmUrAj">下拉刷新...</span> 
+                </div>  
+                <div xid="wrapper" class="message-list-wrap cvmUrAj" __cid="cvmUrAj" id="C79DBC0AD10000011A2D1FD417E17E70_wrapper" style="display: block;"> 
+                  <div class="message-list cvmUrAj" id="scroller" __cid="cvmUrAj" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);"> 
+                    <ul class="msg-notice cvmUrAj" __cid="cvmUrAj"> 
+                      <li xid="notice" __cid="cvmUrAj" class="cvmUrAj" data-bind="event:{click:$model._callModelFn.bind($model, &#39;noticeClick&#39;)}" id="C79DBC0AD10000011A2D1FD417E17E70_notice"> 
+                        <div class="message-con cvmUrAj" __cid="cvmUrAj"> 
+                          <em class="iconfont cvmUrAj" __cid="cvmUrAj"></em>  
+                          <a data-href="javascript:void(0);" __cid="cvmUrAj" class="cvmUrAj"> 
+                            <dl class="search-list-item cvmUrAj" __cid="cvmUrAj"> 
+                              <dt __cid="cvmUrAj" class="cvmUrAj"> 
+                                <span class="iconfont bg-blue cvmUrAj" __cid="cvmUrAj"></span> 
+                              </dt>  
+                              <dd __cid="cvmUrAj" class="cvmUrAj"> 
+                                <h2 __cid="cvmUrAj" class="cvmUrAj">活动公告<em __cid="cvmUrAj" class="cvmUrAj"></em></h2>  
+                                <p __cid="cvmUrAj" class="cvmUrAj"> 
+                                  <span class="message-info cvmUrAj" __cid="cvmUrAj">王者荣耀24小时极速验收上线</span> 
+                                </p>  
+                                <em class="iconfont cvmUrAj" __cid="cvmUrAj"></em> 
+                              </dd> 
+                            </dl> 
+                          </a> 
+                        </div> 
+                      </li>  
+                      <li xid="activity" __cid="cvmUrAj" class="cvmUrAj" data-bind="event:{click:$model._callModelFn.bind($model, &#39;activityClick&#39;)}" id="C79DBC0AD10000011A2D1FD417E17E70_activity"> 
+                        <div class="message-con cvmUrAj" __cid="cvmUrAj"> 
+                          <em class="iconfont cvmUrAj" __cid="cvmUrAj"></em>  
+                          <a data-href="javascript:void(0);" __cid="cvmUrAj" class="cvmUrAj"> 
+                            <dl class="search-list-item cvmUrAj" __cid="cvmUrAj"> 
+                              <dt __cid="cvmUrAj" class="cvmUrAj"> 
+                                <span class="iconfont bg-orange cvmUrAj" __cid="cvmUrAj"></span> 
+                              </dt>  
+                              <dd __cid="cvmUrAj" class="cvmUrAj"> 
+                                <h2 __cid="cvmUrAj" class="cvmUrAj">福利活动<em __cid="cvmUrAj" class="cvmUrAj"></em></h2>  
+                                <p __cid="cvmUrAj" class="cvmUrAj"> 
+                                  <span class="message-info cvmUrAj" __cid="cvmUrAj">“你发单，我买单”第四期开始啦</span> 
+                                </p>  
+                                <em class="iconfont cvmUrAj" __cid="cvmUrAj"></em> 
+                              </dd> 
+                            </dl> 
+                          </a> 
+                        </div> 
+                      </li> 
+                    </ul>  
+                    <ul component="$model/UI2/system/components/justep/list/list" class="x-list x-list-template cvmUrAj" xid="list1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/list/list&#39;},foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cvmUrAj" id="C79DBC0AD10000011A2D1FD417E17E70_list1" data="data1" __component-context__="inline"></ul>  
+                    <div class="ajax-loading pullup cvmUrAj" xid="pullup" style="display: none;" __cid="cvmUrAj" id="C79DBC0AD10000011A2D1FD417E17E70_pullup"> 
+                      <div class="spinner cvmUrAj" __cid="cvmUrAj"> 
+                        <div class="spinner-container container1 cvmUrAj" __cid="cvmUrAj"> 
+                          <div class="circle1 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle2 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle3 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle4 cvmUrAj" __cid="cvmUrAj"></div> 
+                        </div>  
+                        <div class="spinner-container container2 cvmUrAj" __cid="cvmUrAj"> 
+                          <div class="circle1 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle2 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle3 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle4 cvmUrAj" __cid="cvmUrAj"></div> 
+                        </div>  
+                        <div class="spinner-container container3 cvmUrAj" __cid="cvmUrAj"> 
+                          <div class="circle1 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle2 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle3 cvmUrAj" __cid="cvmUrAj"></div>  
+                          <div class="circle4 cvmUrAj" __cid="cvmUrAj"></div> 
+                        </div> 
+                      </div>  
+                      <span __cid="cvmUrAj" class="cvmUrAj">疯狂加载中...</span> 
+                    </div>  
+                    <div xid="listEnd" align="center" style="padding: 10px; width: 100%; height: 45px;" __cid="cvmUrAj" class="cvmUrAj" id="C79DBC0AD10000011A2D1FD417E17E70_listEnd">暂无订单消息</div> 
+                  </div> 
+                </div> 
+              </div> 
+            </div>
+          </div> 
+        </div>  
+        <div class="x-contents-content cr6FNVn x-content-on-remoting-sibling" xid="personalContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:&#39;$model/UI2/system/components/justep/contents/content&#39;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_personalContent"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cr6FNVn" xid="personalContainer" __component-context__="block" data-bind="component:{name:&#39;$model/UI2/system/components/justep/windowContainer/windowContainer&#39;}" data-config="{&quot;src&quot;:&quot;$model/UI2/dlmm/page/personal/personal.w&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_personalContainer">
+            <div xid="window" class="window cjeERzu" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:&#39;$model/UI2/system/components/justep/window/window&#39;}" __cid="cjeERzu" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/window/window," id="C79DBC0AD1200001C55515906AC07C60_window">  
+              <div component="$model/UI2/system/components/justep/model/model" xid="personalContent" style="display:none" data-bind="component:{name:&#39;$model/UI2/system/components/justep/model/model&#39;}" data-events="onLoad:personalContentLoad" __cid="cjeERzu" class="cjeERzu" id="C79DBC0AD1200001C55515906AC07C60_personalContent"></div>  
+              <div class="viewrap my-wrap padbot28 cjeERzu" style="overflow:visible;" __cid="cjeERzu">  
+                <div class="my-top cjeERzu" __cid="cjeERzu"> 
+                  <div class="balance-header cjeERzu" __cid="cjeERzu"> 
+                    <span __cid="cjeERzu" class="cjeERzu">我的</span> 
+                  </div>  
+                  <div class="my-head-portrait cjeERzu" __cid="cjeERzu"> 
+                    <span __cid="cjeERzu" class="cjeERzu"> 
+                      <img id="per_touaddr" src="./dl_files/header-02.jpg" __cid="cjeERzu" class="cjeERzu"> 
+                    </span>  
+                    <a class="btn-data cjeERzu" href="javascript:void(0);" xid="userinfo" __cid="cjeERzu" data-bind="event:{click:$model._callModelFn.bind($model, &#39;userinfoClick&#39;)}" id="C79DBC0AD1200001C55515906AC07C60_userinfo">资料
+                      <em class="iconfont cjeERzu" __cid="cjeERzu"></em> 
+                    </a> 
+                  </div>  
+                  <div class="my-head-info cjeERzu" __cid="cjeERzu"> 
+                    <p class="nick-name cjeERzu" id="per_nickname" __cid="cjeERzu"></p>  
+                    <p class="signature cjeERzu" id="per_signature" __cid="cjeERzu"></p>  
+                    <ul __cid="cjeERzu" class="cjeERzu"> 
+                      <li __cid="cjeERzu" class="cjeERzu"> 
+                        <h4 __cid="cjeERzu" class="cjeERzu">账户余额(元)</h4>  
+                        <h3 id="per_amount" __cid="cjeERzu" class="cjeERzu"></h3> 
+                      </li>  
+                      <li __cid="cjeERzu" class="cjeERzu"> 
+                        <h4 __cid="cjeERzu" class="cjeERzu">冻结金额(元)</h4>  
+                        <h3 id="per_freeze" __cid="cjeERzu" class="cjeERzu"></h3> 
+                      </li> 
+                    </ul> 
+                  </div> 
+                </div>  
+                <div class="balance-list cjeERzu" __cid="cjeERzu"> 
+                  <ul __cid="cjeERzu" class="cjeERzu"> 
+                    <li class="list-a-04 cjeERzu" __cid="cjeERzu" data-bind="event:{click:$model._callModelFn.bind($model, &#39;financeManager&#39;)}"> 
+                      <a href="javascript:void(0);" __cid="cjeERzu" class="cjeERzu"> 
+                        <div class="list-icon cjeERzu" __cid="cjeERzu"> 
+                          <em class="iconfont cjeERzu" style="color: #3d9bcc;" __cid="cjeERzu"></em> 
+                        </div>  
+                        <div class="list-inner cjeERzu" __cid="cjeERzu"> 
+                          <div class="autohe cjeERzu" __cid="cjeERzu"> 
+                            <p __cid="cjeERzu" class="cjeERzu">资金管理</p> 
+                          </div> 
+                        </div>  
+                        <div class="list-tiptxt cjeERzu" __cid="cjeERzu">&nbsp;</div>  
+                        <em class="iconfont list-after cjeERzu" __cid="cjeERzu"></em> 
+                      </a> 
+                    </li>  
+                    <li class="list-a-04 cjeERzu" __cid="cjeERzu" data-bind="event:{click:$model._callModelFn.bind($model, &#39;toActivity&#39;)}"> 
+                      <a href="javascript:void(0);" __cid="cjeERzu" class="cjeERzu"> 
+                        <div class="list-icon cjeERzu" __cid="cjeERzu"> 
+                          <em class="iconfont cjeERzu" style="color: #82c46a;" __cid="cjeERzu"></em> 
+                        </div>  
+                        <div class="list-inner cjeERzu" __cid="cjeERzu"> 
+                          <div class="autohe cjeERzu" __cid="cjeERzu"> 
+                            <p __cid="cjeERzu" class="cjeERzu">活动返利</p> 
+                          </div> 
+                        </div>  
+                        <div class="list-tiptxt cjeERzu" __cid="cjeERzu">&nbsp;</div>  
+                        <em class="iconfont list-after cjeERzu" __cid="cjeERzu"></em> 
+                      </a> 
+                    </li> 
+                  </ul> 
+                </div>  
+                <div class="balance-list cjeERzu" __cid="cjeERzu"> 
+                  <ul __cid="cjeERzu" class="cjeERzu"> 
+                    <li class="list-a-04 cjeERzu" xid="help" __cid="cjeERzu" data-bind="event:{click:$model._callModelFn.bind($model, &#39;helpClick&#39;)}" id="C79DBC0AD1200001C55515906AC07C60_help"> 
+                      <a href="javascript:void(0);" __cid="cjeERzu" class="cjeERzu"> 
+                        <div class="list-icon cjeERzu" __cid="cjeERzu"> 
+                          <em class="iconfont cjeERzu" style="color: #ff6700;" __cid="cjeERzu"></em> 
+                        </div>  
+                        <div class="list-inner cjeERzu" __cid="cjeERzu"> 
+                          <div class="autohe cjeERzu" __cid="cjeERzu"> 
+                            <p __cid="cjeERzu" class="cjeERzu">帮助反馈</p> 
+                          </div> 
+                        </div>  
+                        <div class="list-tiptxt cjeERzu" __cid="cjeERzu">&nbsp;</div>  
+                        <em class="iconfont list-after cjeERzu" __cid="cjeERzu"></em> 
+                      </a> 
+                    </li>  
+                    <li class="list-a-04 kf-btn cjeERzu" id="lxkf" __cid="cjeERzu"> 
+                      <a href="javascript:void(0)" __cid="cjeERzu" class="cjeERzu"> 
+                        <div class="list-icon cjeERzu" __cid="cjeERzu"> 
+                          <em class="iconfont cjeERzu" style="color: #d150bd;" __cid="cjeERzu"></em> 
+                        </div>  
+                        <div class="list-inner cjeERzu" __cid="cjeERzu"> 
+                          <div class="autohe cjeERzu" __cid="cjeERzu"> 
+                            <p __cid="cjeERzu" class="cjeERzu">联系客服</p> 
+                          </div> 
+                        </div>  
+                        <div class="list-tiptxt cjeERzu" style="width: 50%;" __cid="cjeERzu">每天09:00至24:00</div>  
+                        <em class="iconfont list-after cjeERzu" __cid="cjeERzu"></em> 
+                      </a> 
+                    </li>  
+                    <li class="list-a-04 cjeERzu" xid="about" __cid="cjeERzu" data-bind="event:{click:$model._callModelFn.bind($model, &#39;aboutClick&#39;)}" id="C79DBC0AD1200001C55515906AC07C60_about"> 
+                      <a href="javascript:void(0);" __cid="cjeERzu" class="cjeERzu"> 
+                        <div class="list-icon cjeERzu" __cid="cjeERzu"> 
+                          <em class="iconfont cjeERzu" style="color: #3dccb4;" __cid="cjeERzu"></em> 
+                        </div>  
+                        <div class="list-inner cjeERzu" __cid="cjeERzu"> 
+                          <div class="autohe cjeERzu" __cid="cjeERzu"> 
+                            <p __cid="cjeERzu" class="cjeERzu">关于</p> 
+                          </div> 
+                        </div>  
+                        <div class="list-tiptxt cjeERzu" __cid="cjeERzu">&nbsp;</div>  
+                        <em class="iconfont list-after cjeERzu" __cid="cjeERzu"></em> 
+                      </a> 
+                    </li> 
+                  </ul> 
+                </div>  
+                <div class="balance-list cjeERzu" __cid="cjeERzu"> 
+                  <ul __cid="cjeERzu" class="cjeERzu"> 
+                    <li class="list-a-04 cjeERzu" __cid="cjeERzu" data-bind="event:{click:$model._callModelFn.bind($model, &#39;setClick&#39;)}"> 
+                      <a href="javascript:void(0);" __cid="cjeERzu" class="cjeERzu"> 
+                        <div class="list-icon cjeERzu" __cid="cjeERzu"> 
+                          <em class="iconfont cjeERzu" style="color: #00aeef;" __cid="cjeERzu"></em> 
+                        </div>  
+                        <div class="list-inner cjeERzu" __cid="cjeERzu"> 
+                          <div class="autohe cjeERzu" __cid="cjeERzu"> 
+                            <p xid="set" __cid="cjeERzu" class="cjeERzu" id="C79DBC0AD1200001C55515906AC07C60_set">设置</p> 
+                          </div> 
+                        </div>  
+                        <div class="list-tiptxt cjeERzu" __cid="cjeERzu">&nbsp;</div>  
+                        <em class="iconfont list-after cjeERzu" __cid="cjeERzu"></em> 
+                      </a> 
+                    </li> 
+                  </ul> 
+                </div> 
+              </div>  
+              <div class="cover-bg cjeERzu" __cid="cjeERzu">  
+                <div id="kf_wrapper" class="cover-01 cjeERzu" __cid="cjeERzu"> 
+                  <div id="kf_scroller" class="cover-box cjeERzu" __cid="cjeERzu"> 
+                    <div class="offer-float cjeERzu" __cid="cjeERzu"> 
+                      <div class="choose-aut cjeERzu" id="kf_choose_aut_" __cid="cjeERzu"> 
+                        <div class="choose-item cjeERzu" id="kf_choose_item" __cid="cjeERzu"> 
+                          <p id="personal_qq" class="search-list-item cjeERzu" __cid="cjeERzu"> 
+                            <a href="http://m.dailianmama.com/v-1.3.8-zh_CN-/dlmm/index.w?language=zh_CN&amp;skin=&amp;ttt=random7311058&amp;p7953856=pp4065098&amp;t=1500516982592#" style="color: #3399ff;" __cid="cjeERzu" class="cjeERzu">联系QQ：800811499</a> 
+                          </p>  
+                          <p id="personal_tel" class="search-list-item cjeERzu" __cid="cjeERzu"> 
+                            <a href="tel:0553-6026660" style="color: #3399ff;" __cid="cjeERzu" class="cjeERzu">联系电话：0553-6026660</a> 
+                          </p>  
+                          <p id="personal_mail" __cid="cjeERzu" class="cjeERzu"> 
+                            <a href="mailto:dlmm_tousu@qq.com" style="color: #3399ff;" __cid="cjeERzu" class="cjeERzu">投诉邮箱：dlmm_tousu@qq.com</a> 
+                          </p>  
+                          <p __cid="cjeERzu" class="cjeERzu">工作时间：9:00-24:00</p> 
+                        </div>  
+                        <div class="choose-item cjeERzu" __cid="cjeERzu"> 
+                          <p class="cancel-choose cjeERzu" id="kf_cancel_choose" __cid="cjeERzu">取消</p> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </div> 
+              </div> 
+            </div>
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cr6FNVn" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:&#39;$model/UI2/system/components/justep/panel/child&#39;}" __cid="cr6FNVn" _xid="C79DBC0AD0900001DC391C4017521BC2" id="C79DBC0ACF900001B7DA1B6A8D3031E0_bottom1"> 
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="com-nav message-menu cr6FNVn tabbed" xid="buttonGroup1" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/buttonGroup&#39;}" data-events="onSelect:checkLogin" data-config="{&quot;tabbed&quot;:true}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_buttonGroup1"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="cr6FNVn" xid="receiveButton" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/button&#39;}" data-config="{&quot;icon&quot;:&quot;icon-android-note&quot;,&quot;label&quot;:&quot;接单大厅&quot;,&quot;target&quot;:&quot;receiveContent&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_receiveButton"> 
+          <em class="iconfont cr6FNVn" __cid="cr6FNVn"></em>
+          <p __cid="cr6FNVn" class="cr6FNVn">大厅</p> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="cr6FNVn active" xid="orderManageButton" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/button&#39;}" data-config="{&quot;icon&quot;:&quot;icon-clipboard&quot;,&quot;label&quot;:&quot;订单管理&quot;,&quot;target&quot;:&quot;orderManageContent&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_orderManageButton"> 
+          <em class="iconfont cr6FNVn" __cid="cr6FNVn"></em>
+          <p __cid="cr6FNVn" class="cr6FNVn">订单</p> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class=" cr6FNVn" xid="publishManageButton" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/button&#39;}" data-config="{&quot;icon&quot;:&quot;icon-android-forums&quot;,&quot;label&quot;:&quot;发布管理&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_publishManageButton"> 
+          <em class="iconfont cr6FNVn" __cid="cr6FNVn"></em>
+          <p __cid="cr6FNVn" class="cr6FNVn">发布</p> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class=" cr6FNVn" xid="messageManageButton" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/button&#39;}" data-config="{&quot;icon&quot;:&quot;icon-android-forums&quot;,&quot;label&quot;:&quot;消息管理&quot;,&quot;target&quot;:&quot;messageManageContent&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_messageManageButton"> 
+          <em class="iconfont cr6FNVn" __cid="cr6FNVn"></em>
+          <p __cid="cr6FNVn" class="cr6FNVn">消息</p>
+          <b id="msgtip" style="" __cid="cr6FNVn" class="cr6FNVn"></b> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class=" cr6FNVn" xid="personalButton" data-bind="component:{name:&#39;$model/UI2/system/components/justep/button/button&#39;}" data-config="{&quot;icon&quot;:&quot;icon-android-contact&quot;,&quot;label&quot;:&quot;我的&quot;,&quot;target&quot;:&quot;personalContent&quot;}" __cid="cr6FNVn" id="C79DBC0ACF900001B7DA1B6A8D3031E0_personalButton"> 
+          <em class="iconfont cr6FNVn" __cid="cr6FNVn"></em>
+          <p __cid="cr6FNVn" class="cr6FNVn">我的</p> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cr6FNVn" class="cr6FNVn">.x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-top {height: 0px;}.x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p54a4600d8f0740978d4a465ff1253ac8-iosstatusbar >.x-panel-content {top: 0px;}</style>
+  </div> 
+</div></div> 
+    </div> 
+  </div>  
+  <div class="weui_mask_transition cnaAfQr" xid="mask" style="display: none;" __cid="cnaAfQr" id="C79DBC084F800001BE9DA4DC15101498_mask"></div>  
+  <div class="weui_actionsheet cnaAfQr" xid="weui_actionsheet" __cid="cnaAfQr" id="C79DBC084F800001BE9DA4DC15101498_weui_actionsheet"> 
+    <div class="weui_actionsheet_menu cnaAfQr" __cid="cnaAfQr"> 
+      <div class="weui_actionsheet_cell title cnaAfQr" __cid="cnaAfQr">分享至</div>  
+      <div class="weui_actionsheet_cell platform cnaAfQr" __cid="cnaAfQr"> 
+        <p class="share_copy cnaAfQr" __cid="cnaAfQr"> 
+          <a class="wxshare cnaAfQr" __cid="cnaAfQr"> 
+            <img src="./dl_files/wxicon.png" __cid="cnaAfQr" class="cnaAfQr"> 
+          </a>  
+          <span __cid="cnaAfQr" class="cnaAfQr">微信</span> 
+        </p>  
+        <p class="share_copy cnaAfQr" __cid="cnaAfQr"> 
+          <a class="qqshare cnaAfQr" __cid="cnaAfQr"> 
+            <img src="./dl_files/qqicon.png" __cid="cnaAfQr" class="cnaAfQr"> 
+          </a>  
+          <span __cid="cnaAfQr" class="cnaAfQr">腾讯QQ</span> 
+        </p> 
+      </div>  
+      <div class="weui_actionsheet_cell fuzhi cnaAfQr" __cid="cnaAfQr"> 
+        <p class="share_copy cnaAfQr" __cid="cnaAfQr"> 
+          <a class="fuzhish cnaAfQr" __cid="cnaAfQr"> 
+            <img src="./dl_files/fzicon.png" __cid="cnaAfQr" class="cnaAfQr"> 
+          </a>  
+          <span __cid="cnaAfQr" class="cnaAfQr">复制</span> 
+        </p> 
+      </div> 
+    </div>  
+    <div class="weui_actionsheet_action cnaAfQr" __cid="cnaAfQr"> 
+      <div class="weui_actionsheet_cell cnaAfQr" xid="actionsheet_cancel" __cid="cnaAfQr" id="C79DBC084F800001BE9DA4DC15101498_actionsheet_cancel">取消</div> 
+    </div> 
+  </div>  
+  <div class="loadApp cnaAfQr" xid="loadAppDownload" style="display:none;z-index:100;" __cid="cnaAfQr" id="C79DBC084F800001BE9DA4DC15101498_loadAppDownload"> 
+    <img class="downloadAppLogo cnaAfQr" src="./dl_files/downloadAppLogo.jpg" width="16%" __cid="cnaAfQr">  
+    <p class="loadApp_p cnaAfQr" __cid="cnaAfQr">使用代练妈妈APP,体验更好！www.dailianmama.com</p>  
+    <img class="downloadApp cnaAfQr" src="./dl_files/downloadApp.jpg" width="28%" __cid="cnaAfQr">  
+    <img class="closeApp cnaAfQr" src="./dl_files/closeApp.png" width="9.5%" __cid="cnaAfQr"> 
+  </div> 
+<span component="$model/UI2/system/components/justep/messageDialog/messageDialog" type="OK" data-bind="component:{name:&#39;$model/UI2/system/components/justep/messageDialog/messageDialog&#39;}" __cid="cnaAfQr" class="cnaAfQr"><div class="x-modal-overlay cnaAfQr" __cid="cnaAfQr"></div><div class="x-modal cnaAfQr" __cid="cnaAfQr"><div class="x-modal-inner cnaAfQr" __cid="cnaAfQr"><div class="x-modal-title cnaAfQr" __cid="cnaAfQr">undefined</div><div class="x-modal-text cnaAfQr" __cid="cnaAfQr">undefined</div><input type="text" class="x-modal-prompt-input cnaAfQr" __cid="cnaAfQr"></div><div class="x-modal-buttons cnaAfQr" __cid="cnaAfQr"><a class="x-modal-button x-modal-button-bold OK cnaAfQr" value="ok" __cid="cnaAfQr">确定</a><a class="x-modal-button x-modal-button-bold Yes cnaAfQr" value="yes" __cid="cnaAfQr">更新</a><a class="x-modal-button x-modal-button-bold No cnaAfQr" value="no" __cid="cnaAfQr">忽略</a><a class="x-modal-button x-modal-button-bold Cancel cnaAfQr" value="cancel" __cid="cnaAfQr">取消</a></div></div></span></div></div>
+        
+        <div id="downloadGCF" style="display:none;padding:50px;">
+        	<span>您使用的浏览器需要下载插件才能使用, </span>
+        	<a id="downloadGCFLink" href="http://m.dailianmama.com/v-1.3.8-zh_CN-/dlmm/index.w?language=zh_CN&amp;skin=&amp;ttt=random7311058&amp;p7953856=pp4065098&amp;t=1500516982592#">下载地址</a>
+        	<p>(安装后请重新打开浏览器)</p>
+        </div>
+    	<script>
+    	
+    	            //判断浏览器, 判断GCF
+    	 			var browser = {
+    			        isIe: function () {
+    			            return navigator.appVersion.indexOf("MSIE") != -1;
+    			        },
+    			        navigator: navigator.appVersion,
+    			        getVersion: function() {
+    			            var version = 999; // we assume a sane browser
+    			            if (navigator.appVersion.indexOf("MSIE") != -1)
+    			                // bah, IE again, lets downgrade version number
+    			                version = parseFloat(navigator.appVersion.split("MSIE")[1]);
+    			            return version;
+    			        }
+    			    };
+    				function isGCFInstalled(){
+    			      try{
+    			        var i = new ActiveXObject('ChromeTab.ChromeFrame');
+    			        if (i) {
+    			          return true;
+    			        }
+    			      }catch(e){}
+    			      return false;
+    				}
+    	            //判断浏览器, 判断GCF
+    	            var __continueRun = true;
+    				if (browser.isIe() && (browser.getVersion() < 10) && !isGCFInstalled()) {
+    					document.getElementById("applicationHost").style.display = 'none';
+    					document.getElementById("downloadGCF").style.display = 'block';
+    					var downloadLink = "/" + location.pathname.match(/[^\/]+/)[0] + "/v8.msi";
+    					document.getElementById("downloadGCFLink").href = downloadLink; 
+    					__continueRun = false;
+    	            }
+		 	
+    	</script>
+        
+        <script id="_requireJS" src="./dl_files/require.2.1.10.js"> </script>
+        <script src="./dl_files/core.min.js"></script><script src="./dl_files/common.min.js"></script><script src="./dl_files/comp.min.js"></script><script id="_mainScript">
+        
+			if (__continueRun) {
+                window.__justep.cssReady = function(fn){
+                	var promises = [];
+                	for (var p in window.__justep.__ResourceEngine.__loadingCss){
+                		if(window.__justep.__ResourceEngine.__loadingCss.hasOwnProperty(p))
+                			promises.push(window.__justep.__ResourceEngine.__loadingCss[p].promise());
+                	}
+                	$.when.apply($, promises).done(fn);
+                };
+                
+            	window.__justep.__ResourceEngine = {
+            		readyRegExp : navigator.platform === 'PLAYSTATION 3' ? /^complete$/ : /^(complete|loaded)$/,
+            		url: window.location.href,	
+            		/*contextPath: 不包括语言 */
+            		contextPath: "",
+            		serverPath: "",
+            		__loadedJS: [],
+            		__loadingCss: {},
+            		onLoadCss: function(url, node){
+            			if (!this.__loadingCss[url]){
+            				this.__loadingCss[url] = $.Deferred();	
+                			if (node.attachEvent &&
+                                    !(node.attachEvent.toString && node.attachEvent.toString().indexOf('[native code') < 0) &&
+                                    !(typeof opera !== 'undefined' && opera.toString() === '[object Opera]')) {
+                                node.attachEvent('onreadystatechange', this.onLinkLoad.bind(this));
+                            } else {
+                                node.addEventListener('load', this.onLinkLoad.bind(this), false);
+                                node.addEventListener('error', this.onLinkError.bind(this), false);
+                            }
+            			}
+            		},
+            		
+            		onLinkLoad: function(evt){
+            	        var target = (evt.currentTarget || evt.srcElement);
+            	        if (evt.type === 'load' ||
+                                (this.readyRegExp.test(target.readyState))) {
+            	        	var url = target.getAttribute("href");
+            	        	if (url && window.__justep.__ResourceEngine.__loadingCss[url]){
+            	        		window.__justep.__ResourceEngine.__loadingCss[url].resolve(url);
+            	        	}
+                        }
+            		},
+            		
+            		onLinkError: function(evt){
+            	        var target = (evt.currentTarget || evt.srcElement);
+        	        	var url = target.getAttribute("href");
+        	        	if (url && window.__justep.__ResourceEngine.__loadingCss[url]){
+        	        		window.__justep.__ResourceEngine.__loadingCss[url].resolve(url);
+        	        	}
+            		},
+            		
+            		initContextPath: function(){
+            			var baseURL = document.getElementById("_requireJS").src;
+            			var before = location.protocol + "//" + location.host;
+            			var after = "/system/lib/require/require.2.1.10.js";
+            			var i = baseURL.indexOf(after);
+            			if (i !== -1){
+    	        			var middle = baseURL.substring(before.length, i);
+    						var items = middle.split("/");
+    						
+    						
+    						if ((items[items.length-1].indexOf("v_") === 0) 
+    								&& (items[items.length-1].indexOf("l_") !== -1)
+    								&& (items[items.length-1].indexOf("s_") !== -1)
+    								&& (items[items.length-1].indexOf("d_") !== -1)
+    								|| (items[items.length-1]=="v_")){
+    							items.splice(items.length-1, 1);
+    						}
+    						
+    						
+    						if (items.length !== 1){
+    							window.__justep.__ResourceEngine.contextPath = items.join("/");
+    						}else{
+    							window.__justep.__ResourceEngine.contextPath = before;
+    						}
+    						var index = window.__justep.__ResourceEngine.contextPath.lastIndexOf("/");
+    						if (index != -1){
+    							window.__justep.__ResourceEngine.serverPath = window.__justep.__ResourceEngine.contextPath.substr(0, index);
+    						}else{
+    							window.__justep.__ResourceEngine.serverPath = window.__justep.__ResourceEngine.contextPath;
+    						}
+            			}else{
+            				throw new Error(baseURL + " hasn't  " + after);
+            			}
+            		},
+            	
+            		loadJs: function(urls){
+            			if (urls && urls.length>0){
+            				var loadeds = this._getResources("script", "src").concat(this.__loadedJS);
+    	       				for (var i=0; i<urls.length; i++){
+    	       					var url = window.__justep.__ResourceEngine.contextPath + urls[i];
+    	        				if(!this._isLoaded(url, loadeds)){
+    	        					this.__loadedJS[this.__loadedJS.length] = url;
+    	        					/*
+    	        					var script = document.createElement("script");
+    	        					script.src = url;
+    	        					document.head.appendChild(script);
+    	        					*/
+    	        					//$("head").append("<script  src='" + url + "'/>");
+    	        					$.ajax({
+    	        						url: url,
+    	        						dataType: "script",
+    	        						cache: true,
+    	        						async: false,
+    	        						success: function(){}
+    	        						});
+    	        				} 
+    	       				}
+            			}
+            		},
+            		
+            		loadCss: function(styles){
+           				var loadeds = this._getResources("link", "href");
+            			if (styles && styles.length>0){
+            				for (var i=0; i<styles.length; i++){
+    	       					var url = window.__justep.__ResourceEngine.contextPath + styles[i].url
+    	        				if(!this._isLoaded(url, loadeds)){
+    	        					var include = styles[i].include || "";
+    	        					var link = $("<link type='text/css' rel='stylesheet' href='" + url + "' include='" + include + "'/>");
+    	        					this.onLoadCss(url, link[0]);
+    	        					$("head").append(link);
+    	        				} 
+            				}
+            			}
+            			
+            		},
+            		
+            		
+            		_isLoaded: function(url, loadeds){
+            			if (url){
+            				var newUrl = "";
+            				var items = url.split("/");
+            				var isVls = false;
+            				for (var i=0; i<items.length; i++){
+            					if (isVls){
+                					newUrl += "/" + items[i];
+            					}else{
+                					if (items[i] && (items[i].indexOf("v_")===0)
+            								&& (items[i].indexOf("l_")!==-1)
+            								&& (items[i].indexOf("s_")!==-1)
+            								&& (items[i].indexOf("d_")!==-1)
+            								|| (items[i]=="v_")){
+                						isVls = true;
+                					}
+            					}
+            				}
+            				if (!newUrl)
+            					newUrl = url;
+            				
+            				for (var i=0; i<loadeds.length; i++){
+    							if (loadeds[i] && (loadeds[i].indexOf(newUrl)!==-1)){
+    								return true;
+    							}
+    						}
+            			}
+    					return false;
+            		},
+            		
+            		_getResources: function(tag, attr){
+    					var result = [];
+    					var scripts = $(tag);
+    					for (var i=0; i<scripts.length; i++){
+    						var v = scripts[i][attr];
+    						if (v){
+    							result[result.length] = v;
+    						}
+    					}
+    					return result;
+            		}
+            	};
+            	
+            	window.__justep.__ResourceEngine.initContextPath();
+    			requirejs.config({
+    				baseUrl: window.__justep.__ResourceEngine.contextPath + '/dlmm',
+    			    paths: {
+    			    	/* 解决require.normalizeName与require.toUrl嵌套后不一致的bug   */
+    			    	'$model/UI2/v_': window.__justep.__ResourceEngine.contextPath + '',
+    			    	'$model/UI2': window.__justep.__ResourceEngine.contextPath + '',
+    			    	'$model': window.__justep.__ResourceEngine.serverPath,
+    			        'text': window.__justep.__ResourceEngine.contextPath + '/system/lib/require/text.2.0.10',
+    			        'bind': window.__justep.__ResourceEngine.contextPath + '/system/lib/bind/bind',
+    			        'jquery': window.__justep.__ResourceEngine.contextPath + '/system/lib/jquery/jquery-1.11.1.min'
+    			    },
+    			    map: {
+    				        '*': {
+    				            res: '$model/UI2/system/lib/require/res',
+    				            cordova: '$model/UI2/system/lib/require/cordova',
+    				            w: '$model/UI2/system/lib/require/w',
+    				            css: '$model/UI2/system/lib/require/css'
+    				        }
+    				},
+    				waitSeconds: 300
+    			});
+    			
+    			requirejs(['require', 'jquery', '$model/UI2/system/lib/base/composition', '$model/UI2/system/lib/base/url', '$model/UI2/system/lib/route/hashbangParser', '$model/UI2/system/components/justep/versionChecker/versionChecker', '$model/UI2/system/components/justep/loadingBar/loadingBar', '$model/UI2/system/lib/jquery/domEvent',  '$model/UI2/system/lib/cordova/cordova'],  function (require, $, composition, URL, HashbangParser,versionChecker) { 
+    				document.addEventListener('deviceready', function() {
+    	                if (navigator && navigator.splashscreen && navigator.splashscreen.hide) {
+    	                	/*延迟隐藏，视觉效果更理想*/
+    	                	setTimeout(function() {navigator.splashscreen.hide();}, 800);
+    	                }
+						setTimeout(function(){
+							versionChecker.check();			
+						},1000);
+    	            }, false);
+    				var context = {};
+    				context.model = '$model/UI2/dlmm/index.w' + (document.location.search || "");
+    				context.view = $('#applicationHost').children()[0];
+    				var element = document.getElementById('applicationHost');
+
+					    				
+    				
+    				var ownerid = new URL(window.__justep.__ResourceEngine.url).getParam("$ownerid");
+    				var pwindow = opener;
+    				if (!pwindow && window.parent && window.parent.window){
+    					pwindow = window.parent.window;
+    				}
+    				if(ownerid && pwindow 
+    						&& pwindow.__justep && pwindow.__justep.windowOpeners
+    						&& pwindow.__justep.windowOpeners[ownerid]
+    						&& $.isFunction(pwindow.__justep.windowOpeners[ownerid].sendToWindow)){
+    					window.__justep.setParams = function(params){
+    						/* 给windowOpener提供再次传参数的接口  */
+    						params = params || {};
+    						composition.setParams(document.getElementById('applicationHost'), params);
+    					};
+    					var winOpener = pwindow.__justep.windowOpeners[ownerid];
+    					$(window).unload(function(event){
+    						if(winOpener && winOpener.dispatchCloseEvent) winOpener.dispatchCloseEvent();
+    					});
+    					var params = winOpener.sendToWindow();
+						context.owner = winOpener;
+						context.params = params || {};
+	        			composition.compose(element, context);
+    				}else{
+        				var params =  {};
+    					var state = new HashbangParser(window.location.hash).parse().__state;
+    					if (state){
+    						params = state.get("");
+    						try{
+    							params = JSON.parse(params);
+    							if (params.hasOwnProperty("__singleValue__")){
+    								params = params.__singleValue__;
+    							}
+    						}catch(e1){}
+    					}
+    					context.noUpdateState = true;
+        				context.params = params;
+        				composition.compose(element, context);
+    				}
+    			});    
+            }
+		 	
+        </script>
+    
+
+<div style="position: static; display: none; width: 0px; height: 0px; border: none; padding: 0px; margin: 0px;"><div id="trans-tooltip"><div id="tip-left-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left-top.png&quot;);"></div><div id="tip-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-top.png&quot;) repeat-x;"></div><div id="tip-right-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right-top.png&quot;);"></div><div id="tip-right" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right.png&quot;) repeat-y;"></div><div id="tip-right-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right-bottom.png&quot;);"></div><div id="tip-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-bottom.png&quot;) repeat-x;"></div><div id="tip-left-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left-bottom.png&quot;);"></div><div id="tip-left" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left.png&quot;);"></div><div id="trans-content"></div></div><div id="tip-arrow-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-arrow-bottom.png&quot;);"></div><div id="tip-arrow-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-arrow-top.png&quot;);"></div></div><div id="x-default-loadingbar" loadingnum="0" class="waiting" style="width: 1%; display: none;"><dt></dt><dd></dd></div><div id="x-default-overlay" class="x-default-overlay"></div></body></html>

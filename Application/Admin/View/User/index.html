@@ -1,0 +1,146 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="main-title">
+		<h2>用户列表</h2>
+	</div>
+	<div class="cf">
+		<div class="fl">
+            <a class="btn" href="{:U('User/add')}">新 增</a>
+            <button class="btn ajax-post" url="{:U('User/changeStatus',array('method'=>'resumeUser'))}" target-form="ids">启 用</button>
+            <button class="btn ajax-post" url="{:U('User/changeStatus',array('method'=>'forbidUser'))}" target-form="ids">禁 用</button>
+            <button class="btn ajax-post confirm" url="{:U('User/changeStatus',array('method'=>'deleteUser'))}" target-form="ids">删 除</button>
+            <button class="btn ajax-post confirm" url="{:U('User/nologinNotify')}" target-form="ids">邮件通知</button>
+			
+			<button class="btn"  id="aweeknologin" >最近{:C('N_DAY_NOLOGIN')}天未登录用户</button>
+        </div>
+
+        <!-- 高级搜索 -->
+		<div class="search-form fr cf">
+			<div class="sleft">
+				<input type="hidden" name="last_login_time" id="last_login_time"  value="{:I('last_login_time')}" >
+				<input type="text" name="nickname" class="search-input" value="{:I('nickname')}" placeholder="请输入用户昵称或者ID">
+				<input type="hidden" name="_order" id="_order"  value="{:I('_order')}" >
+				<input type="hidden" name="_field" id="_field"  value="{:I('_field')}" >
+				<input type="hidden" name="_ordertext" id="_ordertext"  value="{:I('searchordertext')}" >
+				<a class="sch-btn" href="javascript:;" id="search" url="{:U('index')}"><i class="btn-search"></i></a>
+			</div>
+		</div>
+    </div>
+    <!-- 数据列表 -->
+    <div class="data-table table-striped">
+	<table class="">
+    <thead>
+        <tr>
+		<th class="row-selected row-selected"><input class="check-all" type="checkbox"/></th>
+		<th class="" _field="uid">UID</th>
+		<th class="">用户名</th>
+		<th class="" _field="balance">余额</th>
+		<th class="" _field="search">查询次数</th>
+		<th class="">邮箱</th>
+		<th class="">手机</th>
+		<th class="" _field="last_login_time">最后登录时间</th>
+		<th class="" _field="expiryend">会员有效期</th>
+		<th class="" _field="status">状态</th>
+		<th class="">操作</th>
+		</tr>
+    </thead>
+    <tbody>
+		<notempty name="_list">
+		<volist name="_list" id="vo">
+		<tr>
+            <td><input class="ids" type="checkbox" name="id[]" value="{$vo.uid}" /></td>
+			<td>{$vo.uid} </td>
+			<td>{$vo.nickname}</td>
+			<td>{$vo.balance}</td>
+			<td>{$vo.search}</td>
+			<td>{$vo.email}</td>
+			<td>{$vo.mobile}</td>
+			<td><span>{$vo.last_login_time|time_format}</span></td>
+			<td><span>{$vo['expiryend']}</span></td>
+			<td>{$vo.status_text}</td>
+			<td>
+			    <a href="{:U('Deposit/doDeposit?uid='.$vo['uid'])}" class="">充值</a>
+				<a href="{:U('Payment/renew?uid='.$vo['uid'])}" class="">续费</a>
+				<a href="{:U('User/resetPassword?id='.$vo['uid'])}" class="confirm ajax-get">重置密码</a>
+			    <eq name="vo.status" value="1">
+				<a href="{:U('User/changeStatus?method=forbidUser&id='.$vo['uid'])}" class="ajax-get">禁用</a>
+				<else/>
+				<a href="{:U('User/changeStatus?method=resumeUser&id='.$vo['uid'])}" class="ajax-get">启用</a>
+				</eq>
+                
+				<a href="{:U('User/updatenickname?uid='.$vo['uid'])}" class="">修改邮箱</a>
+				<!--<a href="{:U('User/changeStatus?method=deleteuser&id='.$vo['uid'])}" class="confirm ajax-get">删除</a>
+                </td>-->
+		</tr>
+		</volist>
+		<else/>
+		<td colspan="9" class="text-center"> aOh! 暂时还没有内容! </td>
+		</notempty>
+	</tbody>
+    </table>
+	</div>
+    <div class="page">
+        {$_page}
+    </div>
+</block>
+
+<block name="script">
+	<script src="__STATIC__/thinkbox/jquery.thinkbox.js"></script>
+
+	<script type="text/javascript">
+	function gosearch(){
+		var url = $("#search").attr('url');
+        var query  = $('.search-form').find('input').serialize();
+        query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g,'');
+        query = query.replace(/^&/g,'');
+        if( url.indexOf('?')>0 ){
+            url += '&' + query;
+        }else{
+            url += '?' + query;
+        }
+		window.location.href = url;
+	}
+	//搜索功能
+	$("#search").click(function(){
+		gosearch();
+	});
+	$("#aweeknologin").click(function(){
+		$("#last_login_time").val("{:C('N_DAY_NOLOGIN')}");
+		gosearch();
+	});
+	if("{:I('_field')}"!='.'){
+		$("[_field={:I('_field')}]").append("{:I('_ordertext')}");
+	}
+	
+	$("th").click(function(){
+		_order = $("#_order").val();
+		if(!$(this).attr('_field')){
+			return;
+		}
+		$("#_field").val($(this).attr('_field'));
+		if(_order == 'desc'){
+			$("#_order").val('asc');
+			$("#_ordertext").val('↑');
+		}else{
+			$("#_order").val('desc');
+			$("#_ordertext").val('↓');
+		}
+		gosearch();
+	});	
+	
+	
+	
+	
+	//回车搜索
+	$(".search-input").keyup(function(e){
+		if(e.keyCode === 13){
+			$("#search").click();
+			return false;
+		}
+	});
+    //导航高亮
+    highlight_subnav('{:U('User/index')}');
+	</script>
+</block>

@@ -1,0 +1,247 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,section,article,aside,header,footer,nav,dialog,figure,hgroup {margin: 0; padding: 0;}
+html{ -webkit-text-size-adjust: 100%; text-size-adjust: 100%;  height: 100%;}
+table {border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight: normal;}
+ul,ol,li{list-style:none}
+em,i{font-style:normal}
+img{border:0;}
+s{text-decoration: none;}
+input,img{vertical-align:middle; font-family:arial,Microsoft Yahei;}
+input:focus{outline:none;}
+a{color:#666;text-decoration:none;}
+a:active { text-decoration: none!important;}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); box-sizing: border-box;}
+input,button,select,textarea{outline:none;-webkit-appearance:none;}
+input,textarea{-webkit-user-select:auto; user-select: auto;}
+textarea{resize:none;} 
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {-webkit-appearance: none;}
+b{font-weight: normal;}
+div{box-sizing: border-box;}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('http://at.alicdn.com/t/font_v188aenv5lg9o1or.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/font_v188aenv5lg9o1or.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://at.alicdn.com/t/font_v188aenv5lg9o1or.woff') format('woff'), /* chrome銆乫irefox */
+  url('http://at.alicdn.com/t/font_v188aenv5lg9o1or.ttf') format('truetype'), /* chrome銆乫irefox銆乷pera銆丼afari, Android, iOS 4.2+*/
+  url('http://at.alicdn.com/t/font_v188aenv5lg9o1or.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family: iconfont!important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+.clear{clear:both;display:block;height:0;overflow:hidden;font-size:0;}
+.fl { float: left}
+.fr { float: right}
+.block {display: block}
+.dib {display: inline-block}
+.hide {display: none}
+.mt20 {margin-top: .4rem!important}
+.mt10 {margin-top: .2rem!important}
+.tr {text-align: right}
+.tc {text-align: center}
+.pa {position: absolute}
+.pr {position: relative}
+body { min-width: 320px; line-height: 1.5; color: #666; position: relative; height: 100%; font-family: Arial,"Microsoft Yahei"; background: #e6e6e6;}
+html {font-size: 50px}
+body {font-size: 24px}
+@media screen and (min-width: 320px) {
+    html {font-size:22px}
+    body {font-size: 12px}
+}
+@media screen and (min-width: 360px) {
+    html {font-size:24px}
+    body {font-size: 12px}
+}
+@media screen and (min-width: 375px) {
+    html {font-size:25px}
+    body {font-size: 12px}
+}
+@media screen and (min-width: 384px) {
+    html {font-size:25.6px}
+    body {font-size: 14px}
+}
+@media screen and (min-width: 400px) {
+    html {font-size:26.67px}
+    body {font-size: 14px}
+}
+@media screen and (min-width: 414px) {
+    html {font-size:27.6px}
+    body {font-size: 14px}
+}
+@media screen and (min-width: 424px) {
+    html {font-size:28.27px}
+    body {font-size: 14px}
+}
+@media screen and (min-width: 480px) {
+    html {font-size:32px}
+    body {font-size: 15.36px}
+}
+@media screen and (min-width: 540px) {
+    html {font-size:36px}
+    body {font-size: 17.28px}
+}
+@media screen and (min-width: 720px) {
+    html {font-size:48px}
+    body {font-size: 23.04px}
+}
+@media screen and (min-width: 750px) {
+    html {font-size:50px}
+    body {font-size: 24px}
+}
+.blue { color:#007aff!important;}
+.green { color:#009944!important;}
+.red { color:#ce3d3a!important;}
+.orange { color:#ff6700!important;}
+.blank { color:#333!important;}
+.gray { color: #aaa!important;}
+.dark-grey { color: #666!important;}
+.padtop368 {padding-top: 3.68rem !important;}
+.padtop176 {padding-top: 1.76rem !important;}
+.padbot0 { padding-bottom:0rem!important;}
+.padbot2 { padding-bottom:2rem!important;}
+.padbot22 { padding-bottom:2.2rem!important;}
+.padbot28 { padding-bottom:2.8rem!important;}
+.padbot34 {padding-bottom:3.4rem!important;}
+.viewrap { margin:0 auto; position: relative;min-height: 100%;height: auto!important; font-size: 0.56rem; overflow: hidden;}
+.magtop0{margin-top: 0 !important;}
+.mContop0 { padding-top:0;}
+.mContop10 { padding-top:10px;}
+.mContop20 { padding-top:20px;}
+.cover {background-position: center!important;background-size: cover!important;background-repeat: no-repeat!important;}
+.contain {background-position: center!important;background-size: contain!important;background-repeat: no-repeat!important;}
+/*Loading*/
+.popuo-loading { background-color:transparent!important; box-shadow:none!important; text-align: center; width: 100%!important;}
+.popuo-loading .layermcont { padding: 0!important;}
+.load-container { position: relative; display: inline-block;}
+.load-container p { font-size: 0.48rem; color: #fff; margin-top: 0.2rem;}
+.load-container em.iconfont { font-size: 1rem; position: absolute; left:0; text-align: center; width: 100%; color: #fff; top:0; line-height: 2.32rem;}
+.load-container .loader { font-size: 0.56rem; display: inline-block; position: relative; border-top: 0.12rem solid rgba(255, 255, 255, 0.2); border-right: 0.12rem solid rgba(255, 255, 255, 0.2); border-bottom: 0.12rem solid rgba(255, 255, 255, 0.2); border-left: 0.12rem solid #ffffff; -webkit-animation: loading 1.1s infinite linear; animation: loading 1.1s infinite linear;}
+.load-container .loader,.load-container .loader:after {border-radius: 50%; width: 2.24rem;height: 2.24rem;}
+.ajax-loading { padding: 0.8rem; color:#aaa; text-align: center;}
+.ajax-loading span {margin-left: 0.36rem; vertical-align: middle; font-size: 0.5rem;}
+.spinner { display: inline-block; width: 0.8rem; height: 0.8rem; position: relative; vertical-align: middle;}
+ .container1 > div, .container2 > div, .container3 > div { width: 0.24rem; height: 0.24rem; background-color: #aaa; border-radius: 100%; position: absolute; -webkit-animation: bouncedelay 1.2s infinite ease-in-out; animation: bouncedelay 1.2s infinite ease-in-out; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.spinner .spinner-container { position: absolute; width: 100%; height: 100%; }
+.container2 { -webkit-transform: rotateZ(45deg); transform: rotateZ(45deg); }
+.container3 { -webkit-transform: rotateZ(90deg); transform: rotateZ(90deg); }
+.circle1 { top: 0; left: 0; }
+.circle2 { top: 0; right: 0; }
+.circle3 { right: 0; bottom: 0; }
+.circle4 { left: 0; bottom: 0; }
+.container2 .circle1 { -webkit-animation-delay: -1.1s; animation-delay: -1.1s; }
+.container3 .circle1 { -webkit-animation-delay: -1.0s; animation-delay: -1.0s; }
+.container1 .circle2 { -webkit-animation-delay: -0.9s; animation-delay: -0.9s; }
+.container2 .circle2 { -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }
+.container3 .circle2 { -webkit-animation-delay: -0.7s; animation-delay: -0.7s; }
+.container1 .circle3 { -webkit-animation-delay: -0.6s; animation-delay: -0.6s; }
+.container2 .circle3 { -webkit-animation-delay: -0.5s; animation-delay: -0.5s; }
+.container3 .circle3 { -webkit-animation-delay: -0.4s; animation-delay: -0.4s; }
+.container1 .circle4 { -webkit-animation-delay: -0.3s; animation-delay: -0.3s; }
+.container2 .circle4 { -webkit-animation-delay: -0.2s; animation-delay: -0.2s; }
+.container3 .circle4 { -webkit-animation-delay: -0.1s; animation-delay: -0.1s; }
+@-webkit-keyframes bouncedelay {  0%, 80%, 100% {
+-webkit-transform: scale(0.0)
+}
+ 40% {
+-webkit-transform: scale(1.0)
+}
+}
+@keyframes bouncedelay {  0%, 80%, 100% {
+ transform: scale(0.0);
+ -webkit-transform: scale(0.0);
+}
+40% {
+ transform: scale(1.0);
+ -webkit-transform: scale(1.0);
+}
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/***** 閫氱敤澶撮儴 *****/
+.search-header{height: 1.76rem;padding:0 0.6rem;position: fixed; left: 0; top:0; width: 100%; z-index: 9; line-height: 1.76rem;background: #fff;}
+.search-header input{border:none;width:86%;height: 1.12rem; font-size: 0.52rem;color: #333;background: #f3f3f3;border-radius: 0.2rem;padding:0 0.2rem 0 1.4rem;}
+.search-header .search-icon{position: absolute;left: 1rem;top: 0.68rem;font-size: 0.52rem;color: #aaa;}
+.search-header .header-txt{position: absolute; right: 0; top: 0; display: block; padding: 0 0.6rem; height: 1.76rem; line-height: 1.76rem;  font-size: 0.68rem; color: #3399ff;}
+
+.balance-header { height:1.76rem; line-height: 1.76rem;}
+.balance-header .back { position: absolute; left: 0; top: 0; display: block; height: 1.76rem; width: 1.92rem; text-align: center; line-height: 1.76rem; font-size: 0.84rem; color: #fff!important;}
+.balance-header .header-txt-l { position: absolute; left: 0; top: 0; display: block; padding: 0 0.6rem; height: 1.76rem; line-height: 1.76rem;  font-size: 0.68rem; color: #fff!important;}
+.balance-header span { text-align: center; font-size: 0.76rem;}
+.balance-header .icon-r { position: absolute; right: 0; top: 0; display: block; height: 1.76rem; width: 1.92rem; text-align: center; line-height: 1.76rem; font-size: 0.84rem; color: #fff!important;}
+
+.common-header { height:1.76rem; line-height: 1.76rem; background: #fff;}
+.common-header.fixed-header {position: fixed;top: 0;left: 0;width: 100%;z-index: 99;}
+.common-header:after { background: #c3c3c3!important;}
+.common-header .back { position: absolute; left: 0; top: 0; display: block; height: 1.76rem; width: 1.92rem; text-align: center; line-height: 1.76rem; font-size: 0.84rem; color: #3399ff;}
+.common-header .icon-r { position: absolute; right: 0; top: 0; display: block; height: 1.76rem; width: 1.92rem; text-align: center; line-height: 1.76rem; font-size: 0.84rem; color: #3399ff;}
+.common-header .header-txt { position: absolute; right: 0; top: 0; display: block; padding: 0 0.6rem; height: 1.76rem; line-height: 1.76rem;  font-size: 0.68rem; color: #3399ff;}
+.common-header .header-txt-l { position: absolute; left: 0; top: 0; display: block; padding: 0 0.6rem; height: 1.76rem; line-height: 1.76rem;  font-size: 0.68rem; color: #3399ff;}
+.common-header .sea { position: absolute; right: 0; top: 0; display: block; padding: 0 0.6rem; height: 1.76rem; line-height: 1.76rem; font-size: 0.88rem; color: #3399ff;}
+.common-header .header-share { position: absolute; right: 1.44rem; top: 0; display: block; padding: 0 0.6rem; height: 1.76rem; line-height: 1.76rem; font-size: 0.9rem; color: #3399ff;}
+.common-header .header-msg { position: absolute; right: 0; top: 0; display: block; padding: 0 0.6rem; height: 1.76rem;  line-height: 1.76rem; font-size: 0.94rem; color: #3399ff;}
+.common-header .header-msg em{position: absolute;right: 0.28rem;top:0.14rem;width: 0.76rem;height: 0.76rem;display:inline-block;border-radius: 0.76rem;background: #f43531;color: #fff;font-size: 0.48rem;text-align: center;line-height: 0.82rem;}
+.common-header h2 { text-align: center; font-size: 0.76rem;height: 100%;line-height: 1.76rem;color: #333;}
+.header-tab ul { text-align: center;}
+.header-tab ul li { display: inline-block; width: 3.08rem; height: 1.28rem; line-height: 1.28rem; border: #3399ff 1px solid; border-right: none; text-align: center; color:#3399ff; font-size: 0.56rem;margin-left: -0.16rem;}
+.header-tab ul li.on { background: #3399ff; color: #fff;}
+.header-tab ul li:last-child { border-right: #3399ff 1px solid; border-top-right-radius:0.2rem; border-bottom-right-radius:0.2rem;}
+.header-tab ul li:first-child { border-top-left-radius:0.2rem; border-bottom-left-radius:0.2rem;}
+/***** 閫氱敤瀵艰埅 *****/
+.com-nav { position: fixed; z-index: 9999999; height: 2.2rem; line-height: 2.2rem; width: 100%; left: 0; bottom: 0; background:rgba(255,255,255,0.95);}
+.com-nav:after { position: absolute;content: '';position: absolute;left: 0;bottom: auto;right: auto;top: -0.04rem;height: 1px;width: 100%;background-color: #c3c3c3;display: block;z-index: 15;-webkit-transform-origin: 50% 100%;transform-origin: 50% 100%;}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {.com-nav:after{-webkit-transform: scaleY(0.5);transform: scaleY(0.5);}}
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {.com-nav:after{-webkit-transform: scaleY(0.33);transform: scaleY(0.33);}}
+.com-nav a { display: block; height: 2.2rem; float: left; width: 20%; color: #333 !important; text-align: center; overflow: hidden; position: relative;}
+.com-nav a.on { color: #3399ff!important;}
+.com-nav a.on em:after { color: #3399ff!important;}
+.com-nav a.on p { color: #3399ff!important;}
+.com-nav a em { display: block; font-size: 1rem; margin-top: 0.28rem; margin-bottom: 0rem; color: #333;}
+.com-nav a:first-child em:after {content: "\e60b"}
+.com-nav a:first-child.on em:after { content: "\e60c"}
+.com-nav a:nth-child(2) em:after {content: "\e60e"}
+.com-nav a:nth-child(2).on em:after { content: "\e60d"}
+.com-nav a:nth-child(3) em:after {content: "\e951"};
+.com-nav a:nth-child(3).on em:after { content: "\e60d"}
+.com-nav a:nth-child(4) em:after {content: "\e617"}
+.com-nav a:nth-child(4).on em:after { content: "\e618"}
+.com-nav a:nth-child(5) em:after {content: "\e616"}
+.com-nav a:nth-child(5).on em:after { content: "\e615"}
+.com-nav a p { line-height:normal; font-size: 0.46rem; color: #888;}
+.com-nav a b { position: absolute; right: 1.24rem; top:0.2rem; display: block; width: 0.4rem; height: 0.4rem; border-radius: 50%; background: #f43531;}
+
+#scroller { position: absolute;z-index: 1;-webkit-tap-highlight-color: rgba(0,0,0,0);width: 100%;-webkit-transform: translateZ(0);transform: translateZ(0);-webkit-touch-callout: none;user-select: none;-webkit-text-size-adjust: none;text-size-adjust: none;}
+.scrollTop { width: 2.2rem; height: 2.2rem; border-radius: 2.2rem; background: rgba(255,255,255,0.95); text-align: center; color: #3399ff; -webkit-box-shadow:0px 0px 0.24rem rgba(0,0,0,0.5); position: fixed; bottom: 3.8rem; right: 0.6rem; z-index: 9;}
+.scrollTop em.iconfont { font-size: 0.88rem; display: inline-block; margin-top: 0.32rem;}
+.scrollTop p { margin-top: -0.12rem;}
+
+.confirm-onebtn {width: 100%;}
+.confirm-onebtn .layermbtn:before { display: none;}
+.confirm-onebtn .layermbtn span:first-child { display: none;}

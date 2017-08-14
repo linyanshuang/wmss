@@ -1,0 +1,49 @@
+10
+
+dir
+350
+svn://127.0.0.1/svnfile/trunk/one/Application/Home
+svn://127.0.0.1/svnfile
+
+
+
+2016-09-07T14:10:45.940171Z
+322
+linys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47ca87af-8b1e-4405-b57f-48192d2c90b4
+
+Model
+dir
+
+Controller
+dir
+
+Widget
+dir
+
+Conf
+dir
+
+Common
+dir
+
+View
+dir
+
+Logic
+dir
+

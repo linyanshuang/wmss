@@ -1,0 +1,2290 @@
+[ 2016-09-12T23:36:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000580s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+
+[ 2016-09-12T23:36:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000649s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000425s ]
+
+[ 2016-09-12T23:36:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000739s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000451s ]
+
+[ 2016-09-12T23:36:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000552s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000352s ]
+
+[ 2016-09-12T23:36:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000586s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000404s ]
+
+[ 2016-09-12T23:37:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000523s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000349s ]
+
+[ 2016-09-12T23:37:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000519s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000328s ]
+
+[ 2016-09-12T23:37:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000546s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000374s ]
+
+[ 2016-09-12T23:37:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000555s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000338s ]
+
+[ 2016-09-12T23:37:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000550s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000367s ]
+
+[ 2016-09-12T23:37:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.004702s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000373s ]
+
+[ 2016-09-12T23:37:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000509s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000338s ]
+
+[ 2016-09-12T23:37:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000595s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000327s ]
+
+[ 2016-09-12T23:37:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000527s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000350s ]
+
+[ 2016-09-12T23:37:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000583s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000381s ]
+
+[ 2016-09-12T23:37:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000497s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000382s ]
+
+[ 2016-09-12T23:37:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000501s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000324s ]
+
+[ 2016-09-12T23:37:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000514s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000322s ]
+
+[ 2016-09-12T23:37:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000617s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000401s ]
+
+[ 2016-09-12T23:38:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000649s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000427s ]
+
+[ 2016-09-12T23:38:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000545s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000436s ]
+
+[ 2016-09-12T23:38:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000559s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000334s ]
+
+[ 2016-09-12T23:38:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000555s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000370s ]
+
+[ 2016-09-12T23:38:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000565s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000397s ]
+
+[ 2016-09-12T23:38:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000593s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.001783s ]
+
+[ 2016-09-12T23:38:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000496s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-09-12T23:38:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000597s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000367s ]
+
+[ 2016-09-12T23:38:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.006062s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-09-12T23:38:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000405s ]
+
+[ 2016-09-12T23:38:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000634s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000377s ]
+
+[ 2016-09-12T23:38:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000611s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000410s ]
+
+[ 2016-09-12T23:38:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000578s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000401s ]
+
+[ 2016-09-12T23:39:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000650s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000445s ]
+
+[ 2016-09-12T23:39:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000566s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000384s ]
+
+[ 2016-09-12T23:39:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000587s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000366s ]
+
+[ 2016-09-12T23:39:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000572s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000393s ]
+
+[ 2016-09-12T23:39:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000711s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000489s ]
+
+[ 2016-09-12T23:39:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000569s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000368s ]
+
+[ 2016-09-12T23:39:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000561s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000381s ]
+
+[ 2016-09-12T23:39:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000540s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000337s ]
+
+[ 2016-09-12T23:39:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000627s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000375s ]
+
+[ 2016-09-12T23:39:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000547s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000344s ]
+
+[ 2016-09-12T23:39:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000581s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000388s ]
+
+[ 2016-09-12T23:39:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000736s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000336s ]
+
+[ 2016-09-12T23:39:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000613s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000352s ]
+
+[ 2016-09-12T23:39:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000515s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000320s ]
+
+[ 2016-09-12T23:40:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000554s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000372s ]
+
+[ 2016-09-12T23:40:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000553s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000358s ]
+
+[ 2016-09-12T23:40:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000589s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000375s ]
+
+[ 2016-09-12T23:40:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000599s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+
+[ 2016-09-12T23:40:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000578s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-09-12T23:40:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000510s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000385s ]
+
+[ 2016-09-12T23:40:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000509s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000392s ]
+
+[ 2016-09-12T23:40:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000540s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000416s ]
+
+[ 2016-09-12T23:40:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000626s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000258s ]
+
+[ 2016-09-12T23:40:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000680s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000431s ]
+
+[ 2016-09-12T23:40:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000566s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000403s ]
+
+[ 2016-09-12T23:40:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000529s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000325s ]
+
+[ 2016-09-12T23:40:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000655s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000399s ]
+
+[ 2016-09-12T23:41:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000575s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000417s ]
+
+[ 2016-09-12T23:41:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000674s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000426s ]
+
+[ 2016-09-12T23:41:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000532s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000396s ]
+
+[ 2016-09-12T23:41:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000572s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000401s ]
+
+[ 2016-09-12T23:41:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000559s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000370s ]
+
+[ 2016-09-12T23:41:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000505s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000319s ]
+
+[ 2016-09-12T23:41:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000551s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:41:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000614s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000406s ]
+
+[ 2016-09-12T23:41:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000609s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000378s ]
+
+[ 2016-09-12T23:41:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000605s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000353s ]
+
+[ 2016-09-12T23:41:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000527s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000329s ]
+
+[ 2016-09-12T23:41:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.004039s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000366s ]
+
+[ 2016-09-12T23:41:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000523s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000327s ]
+
+[ 2016-09-12T23:41:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000561s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000529s ]
+
+[ 2016-09-12T23:42:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000563s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000421s ]
+
+[ 2016-09-12T23:42:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000536s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000339s ]
+
+[ 2016-09-12T23:42:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000601s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000375s ]
+
+[ 2016-09-12T23:42:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000565s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:42:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003011s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000412s ]
+
+[ 2016-09-12T23:42:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000752s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000486s ]
+
+[ 2016-09-12T23:42:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000560s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000328s ]
+
+[ 2016-09-12T23:42:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000582s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000394s ]
+
+[ 2016-09-12T23:42:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000690s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000330s ]
+
+[ 2016-09-12T23:42:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000542s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000484s ]
+
+[ 2016-09-12T23:42:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000715s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000454s ]
+
+[ 2016-09-12T23:42:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000566s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000353s ]
+
+[ 2016-09-12T23:42:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000544s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000418s ]
+
+[ 2016-09-12T23:43:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000725s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000462s ]
+
+[ 2016-09-12T23:43:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000784s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000478s ]
+
+[ 2016-09-12T23:43:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000559s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:43:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002133s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:43:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000566s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000349s ]
+
+[ 2016-09-12T23:43:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000560s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+
+[ 2016-09-12T23:43:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000574s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000368s ]
+
+[ 2016-09-12T23:43:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000643s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000382s ]
+
+[ 2016-09-12T23:43:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000565s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000366s ]
+
+[ 2016-09-12T23:43:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000561s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000344s ]
+
+[ 2016-09-12T23:43:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000530s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000342s ]
+
+[ 2016-09-12T23:43:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000495s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000328s ]
+
+[ 2016-09-12T23:43:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000519s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000347s ]
+
+[ 2016-09-12T23:43:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000546s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2016-09-12T23:44:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000567s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000362s ]
+
+[ 2016-09-12T23:44:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.004744s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000434s ]
+
+[ 2016-09-12T23:44:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000587s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000413s ]
+
+[ 2016-09-12T23:44:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000610s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000458s ]
+
+[ 2016-09-12T23:44:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000619s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000443s ]
+
+[ 2016-09-12T23:44:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000556s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000408s ]
+
+[ 2016-09-12T23:44:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000601s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000313s ]
+
+[ 2016-09-12T23:44:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000579s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000377s ]
+
+[ 2016-09-12T23:44:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000650s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000374s ]
+
+[ 2016-09-12T23:44:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000582s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000337s ]
+
+[ 2016-09-12T23:44:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000584s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2016-09-12T23:44:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000911s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000353s ]
+
+[ 2016-09-12T23:44:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000522s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000443s ]
+
+[ 2016-09-12T23:45:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000662s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000298s ]
+
+[ 2016-09-12T23:45:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000547s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000322s ]
+
+[ 2016-09-12T23:45:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000514s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000333s ]
+
+[ 2016-09-12T23:45:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000536s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:45:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000588s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000365s ]
+
+[ 2016-09-12T23:45:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002808s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000472s ]
+
+[ 2016-09-12T23:45:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.004792s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:45:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000588s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000342s ]
+
+[ 2016-09-12T23:45:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000554s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000341s ]
+
+[ 2016-09-12T23:45:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000571s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000371s ]
+
+[ 2016-09-12T23:45:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000587s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000365s ]
+
+[ 2016-09-12T23:45:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000520s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2016-09-12T23:45:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000568s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000363s ]
+
+[ 2016-09-12T23:45:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000524s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000351s ]
+
+[ 2016-09-12T23:46:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000755s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000263s ]
+
+[ 2016-09-12T23:46:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000545s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000373s ]
+
+[ 2016-09-12T23:46:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000572s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2016-09-12T23:46:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000548s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000381s ]
+
+[ 2016-09-12T23:46:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000547s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000459s ]
+
+[ 2016-09-12T23:46:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000577s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000366s ]
+
+[ 2016-09-12T23:46:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000539s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000324s ]
+
+[ 2016-09-12T23:46:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000547s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000369s ]
+
+[ 2016-09-12T23:46:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000523s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000342s ]
+
+[ 2016-09-12T23:46:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000547s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000370s ]
+
+[ 2016-09-12T23:46:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000574s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000335s ]
+
+[ 2016-09-12T23:46:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003073s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000336s ]
+
+[ 2016-09-12T23:46:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000530s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000365s ]
+
+[ 2016-09-12T23:47:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000883s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000313s ]
+
+[ 2016-09-12T23:47:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000496s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000320s ]
+
+[ 2016-09-12T23:47:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000509s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2016-09-12T23:47:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000619s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000406s ]
+
+[ 2016-09-12T23:47:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000580s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000378s ]
+
+[ 2016-09-12T23:47:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000541s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000333s ]
+
+[ 2016-09-12T23:47:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000548s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000368s ]
+
+[ 2016-09-12T23:47:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002784s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000473s ]
+
+[ 2016-09-12T23:47:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000534s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000338s ]
+
+[ 2016-09-12T23:47:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000534s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000330s ]
+
+[ 2016-09-12T23:47:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000570s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000332s ]
+
+[ 2016-09-12T23:47:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000614s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000381s ]
+
+[ 2016-09-12T23:47:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000553s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000372s ]
+
+[ 2016-09-12T23:47:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000542s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000340s ]
+
+[ 2016-09-12T23:48:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000602s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000354s ]
+
+[ 2016-09-12T23:48:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000556s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000384s ]
+
+[ 2016-09-12T23:48:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000633s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000375s ]
+
+[ 2016-09-12T23:48:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000522s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000328s ]
+
+[ 2016-09-12T23:48:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000580s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000370s ]
+
+[ 2016-09-12T23:48:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000569s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000387s ]
+
+[ 2016-09-12T23:48:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000780s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000489s ]
+
+[ 2016-09-12T23:48:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000560s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2016-09-12T23:48:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000554s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:48:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000545s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000331s ]
+
+[ 2016-09-12T23:48:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000752s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000508s ]
+
+[ 2016-09-12T23:48:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000540s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000348s ]
+
+[ 2016-09-12T23:48:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003048s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000347s ]
+
+[ 2016-09-12T23:49:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000567s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000346s ]
+
+[ 2016-09-12T23:49:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000533s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000357s ]
+
+[ 2016-09-12T23:49:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000519s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000361s ]
+
+[ 2016-09-12T23:49:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000580s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000343s ]
+
+[ 2016-09-12T23:49:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000551s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000372s ]
+
+[ 2016-09-12T23:49:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000534s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000447s ]
+
+[ 2016-09-12T23:49:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000535s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000364s ]
+
+[ 2016-09-12T23:49:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000576s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000354s ]
+
+[ 2016-09-12T23:49:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000511s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000319s ]
+
+[ 2016-09-12T23:49:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000524s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000336s ]
+
+[ 2016-09-12T23:49:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000527s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+
+[ 2016-09-12T23:49:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000539s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000352s ]
+
+[ 2016-09-12T23:49:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000649s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000434s ]
+
+[ 2016-09-12T23:49:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000570s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000348s ]
+
+[ 2016-09-12T23:50:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000521s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000355s ]
+
+[ 2016-09-12T23:50:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000630s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:50:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000495s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000342s ]
+
+[ 2016-09-12T23:50:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000688s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000471s ]
+
+[ 2016-09-12T23:50:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000521s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000320s ]
+
+[ 2016-09-12T23:50:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000655s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000402s ]
+
+[ 2016-09-12T23:50:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000539s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000350s ]
+
+[ 2016-09-12T23:50:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000585s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000435s ]
+
+[ 2016-09-12T23:50:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000616s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000350s ]
+
+[ 2016-09-12T23:50:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000543s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000338s ]
+
+[ 2016-09-12T23:50:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000538s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:50:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000998s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000357s ]
+
+[ 2016-09-12T23:50:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000663s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000311s ]
+
+[ 2016-09-12T23:51:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000540s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000392s ]
+
+[ 2016-09-12T23:51:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000606s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000388s ]
+
+[ 2016-09-12T23:51:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000548s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.001787s ]
+
+[ 2016-09-12T23:51:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000523s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000326s ]
+
+[ 2016-09-12T23:51:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000586s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000362s ]
+
+[ 2016-09-12T23:51:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000593s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000387s ]
+
+[ 2016-09-12T23:51:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000595s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000397s ]
+
+[ 2016-09-12T23:51:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000621s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000443s ]
+
+[ 2016-09-12T23:51:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000545s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-09-12T23:51:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000643s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000270s ]
+
+[ 2016-09-12T23:51:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000611s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000418s ]
+
+[ 2016-09-12T23:51:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000531s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000357s ]
+
+[ 2016-09-12T23:51:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000709s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000419s ]
+
+[ 2016-09-12T23:51:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000544s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000344s ]
+
+[ 2016-09-12T23:52:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001521s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000341s ]
+
+[ 2016-09-12T23:52:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000585s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000403s ]
+
+[ 2016-09-12T23:52:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000512s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000334s ]
+
+[ 2016-09-12T23:52:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000582s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000374s ]
+
+[ 2016-09-12T23:52:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000550s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000339s ]
+
+[ 2016-09-12T23:52:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000546s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000374s ]
+
+[ 2016-09-12T23:52:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000576s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000384s ]
+
+[ 2016-09-12T23:52:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000558s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000369s ]
+
+[ 2016-09-12T23:52:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000563s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000366s ]
+
+[ 2016-09-12T23:52:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000736s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000478s ]
+
+[ 2016-09-12T23:52:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000523s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000330s ]
+
+[ 2016-09-12T23:52:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003115s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-09-12T23:52:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000575s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000358s ]
+
+[ 2016-09-12T23:53:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000609s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000314s ]
+
+[ 2016-09-12T23:53:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000746s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000460s ]
+
+[ 2016-09-12T23:53:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000502s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000346s ]
+
+[ 2016-09-12T23:53:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000566s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000402s ]
+
+[ 2016-09-12T23:53:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000525s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000355s ]
+
+[ 2016-09-12T23:53:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000585s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000331s ]
+
+[ 2016-09-12T23:53:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000597s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000384s ]
+
+[ 2016-09-12T23:53:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000587s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000394s ]
+
+[ 2016-09-12T23:53:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000504s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000330s ]
+
+[ 2016-09-12T23:53:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000523s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000544s ]
+
+[ 2016-09-12T23:53:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000504s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000403s ]
+
+[ 2016-09-12T23:53:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000526s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000319s ]
+
+[ 2016-09-12T23:53:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000565s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000328s ]
+
+[ 2016-09-12T23:53:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000575s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000387s ]
+
+[ 2016-09-12T23:54:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000548s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000349s ]
+
+[ 2016-09-12T23:54:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000714s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000441s ]
+
+[ 2016-09-12T23:54:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000547s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000370s ]
+
+[ 2016-09-12T23:54:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000528s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000324s ]
+
+[ 2016-09-12T23:54:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000536s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000505s ]
+
+[ 2016-09-12T23:54:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000567s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000363s ]
+
+[ 2016-09-12T23:54:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000527s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000348s ]
+
+[ 2016-09-12T23:54:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000528s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000341s ]
+
+[ 2016-09-12T23:54:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000526s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000343s ]
+
+[ 2016-09-12T23:54:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000538s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000340s ]
+
+[ 2016-09-12T23:54:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000652s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000381s ]
+
+[ 2016-09-12T23:54:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000767s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000501s ]
+
+[ 2016-09-12T23:54:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000536s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000340s ]
+
+[ 2016-09-12T23:55:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000735s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000488s ]
+
+[ 2016-09-12T23:55:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000747s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000321s ]
+
+[ 2016-09-12T23:55:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000755s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000490s ]
+
+[ 2016-09-12T23:55:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000598s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000364s ]
+
+[ 2016-09-12T23:55:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000695s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000314s ]
+
+[ 2016-09-12T23:55:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000525s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-09-12T23:55:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000513s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000325s ]
+
+[ 2016-09-12T23:55:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003160s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000378s ]
+
+[ 2016-09-12T23:55:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.005133s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000373s ]
+
+[ 2016-09-12T23:55:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000580s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000347s ]
+
+[ 2016-09-12T23:55:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000551s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000362s ]
+
+[ 2016-09-12T23:55:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000526s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000329s ]
+
+[ 2016-09-12T23:55:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000530s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000376s ]
+
+[ 2016-09-12T23:55:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000709s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000394s ]
+
+[ 2016-09-12T23:56:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000582s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000389s ]
+
+[ 2016-09-12T23:56:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000535s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000329s ]
+
+[ 2016-09-12T23:56:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000609s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000379s ]
+
+[ 2016-09-12T23:56:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000534s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000325s ]
+
+[ 2016-09-12T23:56:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000538s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000346s ]
+
+[ 2016-09-12T23:56:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000530s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000343s ]
+
+[ 2016-09-12T23:56:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000604s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000330s ]
+
+[ 2016-09-12T23:56:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000520s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000338s ]
+
+[ 2016-09-12T23:56:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000723s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000486s ]
+
+[ 2016-09-12T23:56:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000578s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000378s ]
+
+[ 2016-09-12T23:56:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000551s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000363s ]
+
+[ 2016-09-12T23:56:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000622s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000289s ]
+
+[ 2016-09-12T23:56:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000647s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000408s ]
+
+[ 2016-09-12T23:57:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000693s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000349s ]
+
+[ 2016-09-12T23:57:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000542s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000337s ]
+
+[ 2016-09-12T23:57:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000544s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000343s ]
+
+[ 2016-09-12T23:57:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000532s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-09-12T23:57:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000556s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000348s ]
+
+[ 2016-09-12T23:57:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000535s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000405s ]
+
+[ 2016-09-12T23:57:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000535s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000332s ]
+
+[ 2016-09-12T23:57:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003119s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000493s ]
+
+[ 2016-09-12T23:57:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000533s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000371s ]
+
+[ 2016-09-12T23:57:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000609s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000432s ]
+
+[ 2016-09-12T23:57:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000654s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000298s ]
+
+[ 2016-09-12T23:57:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000515s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000317s ]
+
+[ 2016-09-12T23:57:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000642s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000576s ]
+
+[ 2016-09-12T23:57:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000584s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000256s ]
+
+[ 2016-09-12T23:58:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001093s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000355s ]
+
+[ 2016-09-12T23:58:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000509s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000363s ]
+
+[ 2016-09-12T23:58:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000768s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000407s ]
+
+[ 2016-09-12T23:58:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000571s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000367s ]
+
+[ 2016-09-12T23:58:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000612s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000367s ]
+
+[ 2016-09-12T23:58:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000530s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000323s ]
+
+[ 2016-09-12T23:58:29+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000560s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000354s ]
+
+[ 2016-09-12T23:58:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000513s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+
+[ 2016-09-12T23:58:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000519s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000337s ]
+
+[ 2016-09-12T23:58:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000535s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-09-12T23:58:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000503s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000354s ]
+
+[ 2016-09-12T23:58:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000723s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+
+[ 2016-09-12T23:58:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000779s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000389s ]
+
+[ 2016-09-12T23:59:02+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000640s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000386s ]
+
+[ 2016-09-12T23:59:07+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000574s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000380s ]
+
+[ 2016-09-12T23:59:09+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000569s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000344s ]
+
+[ 2016-09-12T23:59:12+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000541s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000385s ]
+
+[ 2016-09-12T23:59:17+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000543s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-09-12T23:59:22+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000494s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000337s ]
+
+[ 2016-09-12T23:59:27+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000509s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000325s ]
+
+[ 2016-09-12T23:59:32+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000511s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000364s ]
+
+[ 2016-09-12T23:59:37+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000572s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000361s ]
+
+[ 2016-09-12T23:59:42+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000523s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000337s ]
+
+[ 2016-09-12T23:59:47+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000634s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000374s ]
+
+[ 2016-09-12T23:59:49+08:00 ] 183.56.182.19 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000614s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000411s ]
+
+[ 2016-09-12T23:59:52+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000662s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000300s ]
+
+[ 2016-09-12T23:59:54+08:00 ] 66.249.93.70 /
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000700s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000535s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1473695994 ) AND ( deadline = 0 OR deadline > 1473695994 ) ORDER BY `id` DESC  [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000415s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000375s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000216s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000437s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000210s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008306s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-09-12T23:59:57+08:00 ] 183.56.182.19 /Home/Index/currentCount.html?search=led%20downlight:de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000563s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000558s ]
+

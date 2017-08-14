@@ -1,0 +1,39 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>用户充值</h2>
+    </div>
+    <form action="{:U()}" method="post" class="form-horizontal">
+        <div class="form-item">
+			<label class="item-label">用户名<span class="check-tips">（请核对用户名）</span></label>
+            <div class="controls">
+			    <input type="hidden" class="text input-large" name="uid" value="{$uid}">
+				<label class="item-label check-tips">{$nickname}<span class="check-tips"></span></label>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">充值金额<span class="check-tips">(单位：元)</span></label>
+            <div class="controls">
+                <input type="text" class="text" name="balance" value="" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')" >
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">备注<span class="check-tips"></span></label>
+            <div class="controls">
+                <input type="text" class="text" name="remark" value="" >
+            </div>
+        </div>
+        <div class="form-item">
+            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+        //导航高亮
+        highlight_subnav('{:U('User/index')}');
+    </script>
+</block>

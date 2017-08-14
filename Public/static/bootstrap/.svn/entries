@@ -1,0 +1,40 @@
+10
+
+dir
+350
+svn://127.0.0.1/svnfile/trunk/one/Public/static/bootstrap
+svn://127.0.0.1/svnfile
+
+
+
+2016-06-23T12:12:44.847428Z
+279
+linys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47ca87af-8b1e-4405-b57f-48192d2c90b4
+
+css
+dir
+
+fonts
+dir
+
+img
+dir
+
+js
+dir
+

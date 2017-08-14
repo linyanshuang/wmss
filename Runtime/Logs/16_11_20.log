@@ -1,0 +1,1050 @@
+[ 2016-11-20T23:03:10+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000739s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000471s ]
+
+[ 2016-11-20T23:03:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000569s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000476s ]
+
+[ 2016-11-20T23:03:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000694s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000447s ]
+
+[ 2016-11-20T23:03:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000628s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000389s ]
+
+[ 2016-11-20T23:03:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000738s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000357s ]
+
+[ 2016-11-20T23:03:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000519s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000382s ]
+
+[ 2016-11-20T23:03:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002562s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000737s ]
+
+[ 2016-11-20T23:03:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000729s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.001997s ]
+
+[ 2016-11-20T23:03:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002131s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000362s ]
+
+[ 2016-11-20T23:03:50+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000559s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000384s ]
+
+[ 2016-11-20T23:03:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000677s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000437s ]
+
+[ 2016-11-20T23:03:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000668s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000336s ]
+
+[ 2016-11-20T23:04:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000704s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000504s ]
+
+[ 2016-11-20T23:04:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000575s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000364s ]
+
+[ 2016-11-20T23:04:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002336s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000442s ]
+
+[ 2016-11-20T23:04:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002349s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000496s ]
+
+[ 2016-11-20T23:04:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000612s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000398s ]
+
+[ 2016-11-20T23:04:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000547s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+
+[ 2016-11-20T23:04:30+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000664s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000355s ]
+
+[ 2016-11-20T23:04:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000627s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000489s ]
+
+[ 2016-11-20T23:04:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000544s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000339s ]
+
+[ 2016-11-20T23:04:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000732s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000596s ]
+
+[ 2016-11-20T23:04:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002579s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000412s ]
+
+[ 2016-11-20T23:04:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000595s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000330s ]
+
+[ 2016-11-20T23:04:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000693s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000442s ]
+
+[ 2016-11-20T23:05:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000726s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000465s ]
+
+[ 2016-11-20T23:05:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002539s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000474s ]
+
+[ 2016-11-20T23:05:10+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000583s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000461s ]
+
+[ 2016-11-20T23:05:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002138s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000420s ]
+
+[ 2016-11-20T23:05:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000541s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000352s ]
+
+[ 2016-11-20T23:05:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000699s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000573s ]
+
+[ 2016-11-20T23:05:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000621s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000427s ]
+
+[ 2016-11-20T23:05:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000559s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000396s ]
+
+[ 2016-11-20T23:05:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000660s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000458s ]
+
+[ 2016-11-20T23:05:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000546s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000358s ]
+
+[ 2016-11-20T23:05:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000833s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000363s ]
+
+[ 2016-11-20T23:05:50+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000789s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.001929s ]
+
+[ 2016-11-20T23:05:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000562s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000387s ]
+
+[ 2016-11-20T23:05:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002447s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000623s ]
+
+[ 2016-11-20T23:06:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000674s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000457s ]
+
+[ 2016-11-20T23:06:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000697s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000338s ]
+
+[ 2016-11-20T23:06:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002117s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000437s ]
+
+[ 2016-11-20T23:06:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000695s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000568s ]
+
+[ 2016-11-20T23:06:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000754s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000482s ]
+
+[ 2016-11-20T23:06:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000710s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000398s ]
+
+[ 2016-11-20T23:06:30+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000531s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000489s ]
+
+[ 2016-11-20T23:06:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002036s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000382s ]
+
+[ 2016-11-20T23:06:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000581s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000340s ]
+
+[ 2016-11-20T23:06:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000746s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000711s ]
+
+[ 2016-11-20T23:06:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002747s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000560s ]
+
+[ 2016-11-20T23:06:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002176s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000432s ]
+
+[ 2016-11-20T23:06:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002251s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000558s ]
+
+[ 2016-11-20T23:07:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.004019s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000482s ]
+
+[ 2016-11-20T23:07:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002173s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000384s ]
+
+[ 2016-11-20T23:07:10+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000668s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000490s ]
+
+[ 2016-11-20T23:07:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001962s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000495s ]
+
+[ 2016-11-20T23:07:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000587s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000367s ]
+
+[ 2016-11-20T23:07:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000642s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000361s ]
+
+[ 2016-11-20T23:07:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000653s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000318s ]
+
+[ 2016-11-20T23:07:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000792s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000500s ]
+
+[ 2016-11-20T23:07:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002651s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000820s ]
+
+[ 2016-11-20T23:07:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000792s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000475s ]
+
+[ 2016-11-20T23:07:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000629s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000431s ]
+
+[ 2016-11-20T23:07:50+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000857s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000463s ]
+
+[ 2016-11-20T23:07:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000713s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000508s ]
+
+[ 2016-11-20T23:07:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000492s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000367s ]
+
+[ 2016-11-20T23:08:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003029s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000379s ]
+
+[ 2016-11-20T23:08:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000743s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000331s ]
+
+[ 2016-11-20T23:08:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000620s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000385s ]
+
+[ 2016-11-20T23:08:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.003343s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000280s ]
+
+[ 2016-11-20T23:08:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000613s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000345s ]
+
+[ 2016-11-20T23:08:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000744s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000448s ]
+
+[ 2016-11-20T23:08:30+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000530s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000331s ]
+
+[ 2016-11-20T23:08:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000566s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000498s ]
+
+[ 2016-11-20T23:08:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000617s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000380s ]
+
+[ 2016-11-20T23:08:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002755s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000581s ]
+
+[ 2016-11-20T23:08:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002380s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000459s ]
+
+[ 2016-11-20T23:08:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000771s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000484s ]
+
+[ 2016-11-20T23:08:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000621s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000352s ]
+
+[ 2016-11-20T23:09:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000582s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000410s ]
+
+[ 2016-11-20T23:09:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000683s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000423s ]
+
+[ 2016-11-20T23:09:10+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000563s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000363s ]
+
+[ 2016-11-20T23:09:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000522s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000371s ]
+
+[ 2016-11-20T23:09:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002325s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000506s ]
+
+[ 2016-11-20T23:09:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000683s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000448s ]
+
+[ 2016-11-20T23:09:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000564s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000361s ]
+
+[ 2016-11-20T23:09:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000697s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000428s ]
+
+[ 2016-11-20T23:09:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000577s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000350s ]
+
+[ 2016-11-20T23:09:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000593s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002291s ]
+
+[ 2016-11-20T23:09:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002186s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000438s ]
+
+[ 2016-11-20T23:09:50+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000730s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000460s ]
+
+[ 2016-11-20T23:09:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000559s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000435s ]
+
+[ 2016-11-20T23:09:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000589s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+
+[ 2016-11-20T23:10:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002287s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000511s ]
+
+[ 2016-11-20T23:10:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000531s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000340s ]
+
+[ 2016-11-20T23:10:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000521s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000346s ]
+
+[ 2016-11-20T23:10:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002358s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000396s ]
+
+[ 2016-11-20T23:10:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000665s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000430s ]
+
+[ 2016-11-20T23:10:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000730s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000410s ]
+
+[ 2016-11-20T23:10:30+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000700s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000425s ]
+
+[ 2016-11-20T23:10:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000501s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000342s ]
+
+[ 2016-11-20T23:10:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000686s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2016-11-20T23:10:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002811s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2016-11-20T23:10:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002485s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000459s ]
+
+[ 2016-11-20T23:10:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000714s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.001789s ]
+
+[ 2016-11-20T23:10:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001978s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000425s ]
+
+[ 2016-11-20T23:11:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000744s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000481s ]
+
+[ 2016-11-20T23:11:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000633s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.001855s ]
+
+[ 2016-11-20T23:11:10+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000727s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000308s ]
+
+[ 2016-11-20T23:11:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000425s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000354s ]
+
+[ 2016-11-20T23:11:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000730s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000464s ]
+
+[ 2016-11-20T23:11:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000562s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000350s ]
+
+[ 2016-11-20T23:11:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000711s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000536s ]
+
+[ 2016-11-20T23:11:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000762s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000588s ]
+
+[ 2016-11-20T23:11:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002527s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000338s ]
+
+[ 2016-11-20T23:11:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001935s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000359s ]
+
+[ 2016-11-20T23:11:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000563s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000386s ]
+
+[ 2016-11-20T23:11:50+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002223s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000649s ]
+
+[ 2016-11-20T23:11:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000841s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000475s ]
+
+[ 2016-11-20T23:11:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000699s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000488s ]
+
+[ 2016-11-20T23:12:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000619s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000372s ]
+
+[ 2016-11-20T23:12:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000529s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000339s ]
+
+[ 2016-11-20T23:12:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000754s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.007819s ]
+
+[ 2016-11-20T23:12:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002499s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000471s ]
+
+[ 2016-11-20T23:12:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000592s ]
+
+[ 2016-11-20T23:12:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000707s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000506s ]
+
+[ 2016-11-20T23:12:30+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002092s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000384s ]
+
+[ 2016-11-20T23:12:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000525s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000377s ]
+
+[ 2016-11-20T23:12:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000715s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000572s ]
+
+[ 2016-11-20T23:12:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000615s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000412s ]
+
+[ 2016-11-20T23:12:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000529s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000354s ]
+
+[ 2016-11-20T23:12:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000763s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002041s ]
+
+[ 2016-11-20T23:12:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000527s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000323s ]
+
+[ 2016-11-20T23:13:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000577s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000385s ]
+
+[ 2016-11-20T23:13:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000748s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000451s ]
+
+[ 2016-11-20T23:13:10+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002556s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000263s ]
+
+[ 2016-11-20T23:13:10+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000755s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000482s ]
+
+[ 2016-11-20T23:13:15+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000659s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000419s ]
+
+[ 2016-11-20T23:13:20+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000576s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000387s ]
+
+[ 2016-11-20T23:13:25+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000721s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000443s ]
+
+[ 2016-11-20T23:13:30+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000506s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000336s ]
+
+[ 2016-11-20T23:13:35+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000535s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000354s ]
+
+[ 2016-11-20T23:13:40+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002621s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000469s ]
+
+[ 2016-11-20T23:13:45+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002731s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000372s ]
+
+[ 2016-11-20T23:13:50+08:00 ] 121.35.40.249 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002667s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000397s ]
+
+[ 2016-11-20T23:13:50+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000535s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000352s ]
+
+[ 2016-11-20T23:13:55+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000725s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000431s ]
+
+[ 2016-11-20T23:14:00+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000590s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000364s ]
+
+[ 2016-11-20T23:14:05+08:00 ] 121.35.40.249 /Home/Index/currentCount.html?search=sex%20toy:us
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000803s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000472s ]
+
+[ 2016-11-20T23:20:35+08:00 ] 199.30.24.202 /Home/Index/currentCount.html?search=:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000684s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000469s ]
+

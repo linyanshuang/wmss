@@ -1,0 +1,49 @@
+[ 2017-06-27T23:59:34+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=elelctric%20motor:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000908s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002447s ]
+
+[ 2017-06-27T23:59:39+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=elelctric%20motor:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001465s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.001941s ]
+
+[ 2017-06-27T23:59:43+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002830s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000839s ]
+
+[ 2017-06-27T23:59:44+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=elelctric%20motor:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001536s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002334s ]
+
+[ 2017-06-27T23:59:49+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=elelctric%20motor:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000881s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002232s ]
+
+[ 2017-06-27T23:59:54+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=elelctric%20motor:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000774s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000568s ]
+
+[ 2017-06-27T23:59:59+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=elelctric%20motor:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000728s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002959s ]
+

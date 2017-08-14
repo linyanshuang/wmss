@@ -1,0 +1,313 @@
+.runes_x {
+	width: 34px !important;
+	height: 42px !important;
+	background: url(http://cdn.tgp.qq.com/pallas/images/pallas/runes_img1.png) no-repeat;
+}
+.runes_d {
+	width: 64px !important;
+	height: 64px !important;
+	background-image: url(http://cdn.tgp.qq.com/pallas/images/pallas/runes_img2.png);
+}
+.runes-5371 {
+	background-position: -38px 0;
+}
+.runes-5370 {
+	background-position: -76px 0;
+}
+.runes-5369 {
+	background-position: -114px 0;
+}
+.runes-8024 {
+	background-position: -152px 0;
+}
+.runes-8032 {
+	background-position: -190px 0;
+}
+.runes-8031 {
+	background-position: -228px 0;
+}
+.runes-8030 {
+	background-position: -266px 0;
+}
+.runes-8029 {
+	background-position: -304px 0;
+}
+.runes-8028 {
+	background-position: -342px 0;
+}
+.runes-8027 {
+	background-position: 0 -43px;
+}
+.runes-8026 {
+	background-position: -38px -43px;
+}
+.runes-8025 {
+	background-position: -76px -43px;
+}
+.runes-b_4_1 {
+	background-position: -114px -43px;
+}
+.runes-b_3_2 {
+	background-position: -152px -43px;
+}
+.runes-b_3_1 {
+	background-position: -190px -43px;
+}
+.runes-b_2_1 {
+	background-position: -228px -43px;
+}
+.runes-b_2_3 {
+	background-position: -266px -43px;
+}
+.runes-b_1_3 {
+	background-position: -304px -43px;
+}
+.runes-b_1_2 {
+	background-position: -342px -43px;
+}
+.runes-b_3_3 {
+	background-position: 0 -86px;
+}
+.runes-b_4_2 {
+	background-position: -38px -86px;
+}
+.runes-b_4_3 {
+	background-position: -76px -86px;
+}
+.runes-b_1_1 {
+	background-position: -114px -86px;
+}
+.runes-b_2_2 {
+	background-position: -152px -86px;
+}
+.runes-blue_i7 {
+	background-position: -190px -86px;
+}
+.runes-blue_i5 {
+	background-position: -228px -86px;
+}
+.runes-blue_i3 {
+	background-position: -266px -86px;
+}
+.runes-rune_blue {
+	background-position: -304px -86px;
+}
+.runes-red_i7 {
+	background-position: -342px -86px;
+}
+.runes-red_i5 {
+	background-position: 0 -129px;
+}
+.runes-red_i3 {
+	background-position: -38px -129px;
+}
+.runes-r_4_3 {
+	background-position: -76px -129px;
+}
+.runes-r_4_2 {
+	background-position: -114px -129px;
+}
+.runes-r_3_3 {
+	background-position: -152px -129px;
+}
+.runes-r_3_2 {
+	background-position: -190px -129px;
+}
+.runes-r_2_2 {
+	background-position: -228px -129px;
+}
+.runes-r_1_3 {
+	background-position: -266px -129px;
+}
+.runes-r_2_3 {
+	background-position: -304px -129px;
+}
+.runes-r_1_2 {
+	background-position: -342px -129px;
+}
+.runes-r_4_1 {
+	background-position: 0 -172px;
+}
+.runes-rune_yellow {
+	background-position: -38px -172px;
+}
+.runes-r_3_1 {
+	background-position: -76px -172px;
+}
+.runes-r_1_1 {
+	background-position: -114px -172px;
+}
+.runes-r_2_1 {
+	background-position: -152px -172px;
+}
+.runes-rune_purple {
+	background-position: -190px -172px;
+}
+.runes-rune_red {
+	background-position: -228px -172px;
+}
+.runes-y_1_1 {
+	background-position: -266px -172px;
+}
+.runes-yellow_i7 {
+	background-position: -304px -172px;
+}
+.runes-yellow_i5 {
+	background-position: -342px -172px;
+}
+.runes-yellow_i3 {
+	background-position: 0 -215px;
+}
+.runes-y_4_3 {
+	background-position: -38px -215px;
+}
+.runes-y_4_2 {
+	background-position: -76px -215px;
+}
+.runes-y_3_3 {
+	background-position: -114px -215px;
+}
+.runes-y_3_2 {
+	background-position: -152px -215px;
+}
+.runes-y_2_3 {
+	background-position: -190px -215px;
+}
+.runes-y_3_1 {
+	background-position: -228px -215px;
+}
+.runes-y_4_1 {
+	background-position: -266px -215px;
+}
+.runes-y_2_2 {
+	background-position: -304px -215px;
+}
+.runes-y_2_1 {
+	background-position: -342px -215px;
+}
+.runes-y_1_2 {
+	background-position: 0 -258px;
+}
+.runes-y_1_3 {
+	background-position: -38px -258px;
+}
+.runes-8012 {
+	background-position: 0 0;
+}
+.runes-8011 {
+	background-position: -65px 0;
+}
+.runes-8010 {
+	background-position: -130px 0;
+}
+.runes-8009 {
+	background-position: -195px 0;
+}
+.runes-8008 {
+	background-position: -260px 0;
+}
+.runes-8007 {
+	background-position: -325px 0;
+}
+.runes-5374 {
+	background-position: -390px 0;
+}
+.runes-5373 {
+	background-position: -455px 0;
+}
+.runes-8023 {
+	background-position: -520px 0;
+}
+.runes-8022 {
+	background-position: -585px 0;
+}
+.runes-8021 {
+	background-position: 0 -65px;
+}
+.runes-8020 {
+	background-position: -65px -65px;
+}
+.runes-8019 {
+	background-position: -130px -65px;
+}
+.runes-8018 {
+	background-position: -195px -65px;
+}
+.runes-8017 {
+	background-position: -260px -65px;
+}
+.runes-8016 {
+	background-position: -325px -65px;
+}
+.runes-8015 {
+	background-position: -390px -65px;
+}
+.runes-8014 {
+	background-position: -455px -65px;
+}
+.runes-8013 {
+	background-position: -520px -65px;
+}
+.runes-bl_1_3 {
+	background-position: -585px -65px;
+}
+.runes-bl_1_2 {
+	background-position: 0 -130px;
+}
+.runes-bl_1_1 {
+	background-position: -65px -130px;
+}
+.runes-bl_4_3 {
+	background-position: -130px -130px;
+}
+.runes-bl_4_2 {
+	background-position: -195px -130px;
+}
+.runes-bl_4_1 {
+	background-position: -260px -130px;
+}
+.runes-bl_3_3 {
+	background-position: -325px -130px;
+}
+.runes-bl_3_2 {
+	background-position: -390px -130px;
+}
+.runes-bl_3_1 {
+	background-position: -455px -130px;
+}
+.runes-bl_2_3 {
+	background-position: -520px -130px;
+}
+.runes-bl_2_2 {
+	background-position: -585px -130px;
+}
+.runes-bl_2_1 {
+	background-position: 0 -195px;
+}
+.runes-xmas09_8003 {
+	background-position: -65px -195px;
+}
+.runes-xmas09_8002 {
+	background-position: -130px -195px;
+}
+.runes-xmas09_8001 {
+	background-position: -195px -195px;
+}
+.runes-xmas09_8006 {
+	background-position: -260px -195px;
+}
+.runes-xmas09_8005 {
+	background-position: -325px -195px;
+}
+.runes-xmas09_8004 {
+	background-position: -390px -195px;
+}
+.runes-gold_i3 {
+	background-position: -455px -195px;
+}
+.runes-gold_i5 {
+	background-position: -520px -195px;
+}
+.runes-gold_i7 {
+	background-position: -585px -195px;
+}

@@ -1,0 +1,78 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>用户续费</h2>
+    </div>
+    <form action="{:U()}" method="post" class="form-horizontal">
+        <div class="form-item">
+			<label class="item-label">用户名<span class="check-tips">（请核对用户名）</span></label>
+            <div class="controls">
+			    <input type="hidden" class="text input-large" name="uid" value="{$uid}">
+				<label class="item-label check-tips">{$nickname}<span class="check-tips"></span></label>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">会员到期时间<span class="check-tips"></span></label>
+            <div class="controls">
+				<label class="item-label check-tips">{$expiryend}<span class="check-tips"></span></label>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">续费<span class="check-tips"></span></label>
+            <div class="controls">
+			<select name="sn" id="sn">
+				<volist name=":C('GOODS_LIST')" id="vo">
+					<option value="{$key}">{$vo}</option>
+				</volist>
+			</select>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">续费后到期时间为<span class="check-tips"></span></label>
+            <div class="controls">
+                <label class="item-label must" id="expiry">{$expiryend}<span class="check-tips"></span></label>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">支付<span class="check-tips">(用户余额：{$balance}元)</span></label>
+            <div class="controls">
+			    <input type="hidden" class="text input-large" name="pay" id="uid" value="{$uid}">
+                <label class="item-label">应付款：<span id="pay">0.00</span>元<span class="must"></span></label>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">备注<span class="check-tips"></span></label>
+            <div class="controls">
+				<input type="text" class="text input-large" name="remark" id="uid" value="">
+            </div>
+        </div>
+        <div class="form-item">
+            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+		getPrice();
+		function getPrice(){
+			sn = $("#sn").val();
+			uid = $("#uid").val();
+			url = "{:U('Payment/price')}";
+			$.ajax({url:url,data:{'sn':sn,'uid':uid},dataType:'JSON',success:function (data) {
+			$("#pay").html(data.msg);
+			$("#expiry").html(data.newexpiry);
+           }});
+
+		}
+		$("#sn").change(
+			function(){
+				getPrice();
+			}
+		);
+        //导航高亮
+        highlight_subnav('{:U('User/index')}');
+    </script>
+</block>

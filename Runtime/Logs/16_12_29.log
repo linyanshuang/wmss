@@ -1,0 +1,693 @@
+[ 2016-12-29T20:35:58+08:00 ] 104.236.110.18 /Home/Index/currentCount.html?search=:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000537s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000342s ]
+
+[ 2016-12-29T20:36:06+08:00 ] 104.236.110.18 /Home/Index/currentCount.html?search=:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000579s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000351s ]
+
+[ 2016-12-29T20:36:14+08:00 ] 104.236.110.18 /Home/Index/currentCount.html?search=:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000569s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000357s ]
+
+[ 2016-12-29T20:36:21+08:00 ] 104.236.110.18 /Home/Index/currentCount.html?search=:uk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000538s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000340s ]
+
+[ 2016-12-29T22:25:50+08:00 ] 140.205.201.37 /
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000561s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000491s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1483021550 ) AND ( deadline = 0 OR deadline > 1483021550 ) ORDER BY `id` DESC  [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000408s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000317s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000214s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000539s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000192s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008696s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-12-29T22:31:01+08:00 ] 140.205.225.186 /
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000649s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000598s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1483021861 ) AND ( deadline = 0 OR deadline > 1483021861 ) ORDER BY `id` DESC  [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000398s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000311s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000200s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000553s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000249s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008611s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-29T22:31:56+08:00 ] 140.205.225.186 /install/style.css
+ERR: 无法加载控制器:Style.css
+
+[ 2016-12-29T22:32:01+08:00 ] 140.205.225.186 /Home/Index/index.html
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000583s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000489s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1483021921 ) AND ( deadline = 0 OR deadline > 1483021921 ) ORDER BY `id` DESC  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000409s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000307s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000185s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000539s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000187s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008521s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-12-29T22:43:21+08:00 ] 140.205.201.40 /
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000864s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000573s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1483022601 ) AND ( deadline = 0 OR deadline > 1483022601 ) ORDER BY `id` DESC  [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000386s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000354s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000196s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000477s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000207s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008328s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-12-29T22:44:00+08:00 ] 140.205.201.40 /install/style.css
+ERR: 无法加载控制器:Style.css
+
+[ 2016-12-29T22:44:05+08:00 ] 140.205.201.40 /Home/Index/index.html
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000631s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000463s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1483022645 ) AND ( deadline = 0 OR deadline > 1483022645 ) ORDER BY `id` DESC  [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000388s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000294s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000190s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000474s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000199s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007911s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-12-29T22:50:03+08:00 ] 40.77.167.8 /Home/User/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000486s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2016-12-29T22:50:24+08:00 ] 207.46.13.43 /Home/User/verify.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2016-12-29T23:22:27+08:00 ] 163.172.68.122 /Home/Article/detail/id/7.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-12-29T23:24:03+08:00 ] 140.205.225.186 /
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000696s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000547s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1483025043 ) AND ( deadline = 0 OR deadline > 1483025043 ) ORDER BY `id` DESC  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000452s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000295s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000187s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000564s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000200s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007752s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-12-29T23:24:53+08:00 ] 140.205.225.186 /install/style.css
+ERR: 无法加载控制器:Style.css
+
+[ 2016-12-29T23:24:58+08:00 ] 140.205.225.186 /Home/Index/index.html
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000556s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000491s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1483025098 ) AND ( deadline = 0 OR deadline > 1483025098 ) ORDER BY `id` DESC  [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000364s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000297s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000188s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000420s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000181s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009212s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-12-29T23:25:54+08:00 ] 66.249.64.29 /
+SQL: SHOW COLUMNS FROM `onethink_category` [ RunTime:0.000570s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `onethink_document` [ RunTime:0.000472s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `onethink_document` WHERE ( `status` = 1 ) AND ( `pid` = 0 ) AND ( `create_time` < 1483025153 ) AND ( deadline = 0 OR deadline > 1483025153 ) ORDER BY `id` DESC  [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.000357s ]
+SQL: SELECT `id`,`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`remark`,`status`,`create_time` FROM `onethink_action_log` WHERE ( `status` > -1 ) AND ( `action_id` = 12 ) AND ( `model` LIKE '新词%' ) ORDER BY `id` DESC LIMIT 20   [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: str /var/www/html/Application/Home/Common/function.php 第 90 行.
+NOTIC: [8] Undefined variable: count /var/www/html/Application/Home/Common/function.php 第 83 行.
+NOTIC: [8] Undefined variable: nloglists /var/www/html/Application/Home/Controller/IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `onethink_auth_group` [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `onethink_auth_group_access` [ RunTime:0.000326s ]
+SQL: SELECT `uid`,`group_id`,`title`,`description`,`rules` FROM onethink_auth_group_access a INNER JOIN onethink_auth_group g on a.group_id=g.id  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000200s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/Application/Common/Common/function.php 第 976 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `onethink_channel` [ RunTime:0.000438s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `onethink_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.000182s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon` FROM `onethink_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `onethink_category` WHERE ( `status` = 1 ) ORDER BY sort  [ RunTime:0.000170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007782s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
