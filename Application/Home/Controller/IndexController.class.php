@@ -69,6 +69,7 @@ class IndexController extends HomeController {
 		$Ipl = new \Org\Net\IpLocation('QQWry.dat'); // 实例化类 参数表示IP地址库文件
 		$area = $Ipl->getlocation($ip); // 获取某个IP地址所在的位置
 		echo $area . $ip;
+		print_R($_SERVER['HTTP_USER_AGENT']);
 	
 	}
 
