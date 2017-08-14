@@ -18303,3 +18303,430 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
 SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000360s ]
 SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000299s ]
 
+[ 2017-08-14T10:38:45+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000485s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000356s ]
+
+[ 2017-08-14T10:38:50+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000501s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000314s ]
+
+[ 2017-08-14T10:38:55+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000501s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000337s ]
+
+[ 2017-08-14T10:38:55+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000524s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000288s ]
+
+[ 2017-08-14T10:39:00+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000533s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002751s ]
+
+[ 2017-08-14T10:39:05+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000657s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000288s ]
+
+[ 2017-08-14T10:39:10+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000534s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000297s ]
+
+[ 2017-08-14T10:39:15+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001323s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000605s ]
+
+[ 2017-08-14T10:39:20+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000515s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000327s ]
+
+[ 2017-08-14T10:39:20+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003338s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000367s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000321s ]
+
+[ 2017-08-14T10:39:25+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000843s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000255s ]
+
+[ 2017-08-14T10:39:30+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000556s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000290s ]
+
+[ 2017-08-14T10:39:35+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000686s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000408s ]
+
+[ 2017-08-14T10:39:35+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000592s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000290s ]
+
+[ 2017-08-14T10:39:40+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000558s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000252s ]
+
+[ 2017-08-14T10:39:45+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000499s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000358s ]
+
+[ 2017-08-14T10:39:50+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000489s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000300s ]
+
+[ 2017-08-14T10:39:55+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000489s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000391s ]
+
+[ 2017-08-14T10:40:00+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000579s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000318s ]
+
+[ 2017-08-14T10:40:00+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000353s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.001177s ]
+
+[ 2017-08-14T10:40:05+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000533s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000311s ]
+
+[ 2017-08-14T10:40:10+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000554s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000297s ]
+
+[ 2017-08-14T10:40:15+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001219s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000297s ]
+
+[ 2017-08-14T10:40:15+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000601s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000301s ]
+
+[ 2017-08-14T10:40:20+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002248s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000322s ]
+
+[ 2017-08-14T10:40:25+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.004133s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000258s ]
+
+[ 2017-08-14T10:40:30+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001096s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000285s ]
+
+[ 2017-08-14T10:40:35+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000479s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002310s ]
+
+[ 2017-08-14T10:40:40+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001195s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000325s ]
+
+[ 2017-08-14T10:40:40+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000411s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000313s ]
+
+[ 2017-08-14T10:40:45+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000834s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000301s ]
+
+[ 2017-08-14T10:40:50+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000568s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000342s ]
+
+[ 2017-08-14T10:40:55+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000503s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000312s ]
+
+[ 2017-08-14T10:40:55+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000498s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000285s ]
+
+[ 2017-08-14T10:41:00+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000539s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000240s ]
+
+[ 2017-08-14T10:41:05+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000491s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000332s ]
+
+[ 2017-08-14T10:41:10+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000507s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000287s ]
+
+[ 2017-08-14T10:41:15+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000534s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000322s ]
+
+[ 2017-08-14T10:41:20+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000685s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000307s ]
+
+[ 2017-08-14T10:41:20+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000341s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000289s ]
+
+[ 2017-08-14T10:41:25+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001037s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000311s ]
+
+[ 2017-08-14T10:41:30+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000516s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000319s ]
+
+[ 2017-08-14T10:41:35+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000480s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000288s ]
+
+[ 2017-08-14T10:41:35+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000491s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000314s ]
+
+[ 2017-08-14T10:41:40+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000495s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000312s ]
+
+[ 2017-08-14T10:41:45+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.001218s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000313s ]
+
+[ 2017-08-14T10:41:50+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002467s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000331s ]
+
+[ 2017-08-14T10:41:55+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002246s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000308s ]
+
+[ 2017-08-14T10:42:00+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000560s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000339s ]
+
+[ 2017-08-14T10:42:00+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000367s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000256s ]
+
+[ 2017-08-14T10:42:05+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000522s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002143s ]
+
+[ 2017-08-14T10:42:10+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000500s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000298s ]
+
+[ 2017-08-14T10:42:15+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000517s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000298s ]
+
+[ 2017-08-14T10:42:15+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000517s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000296s ]
+
+[ 2017-08-14T10:42:20+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000523s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000375s ]
+
+[ 2017-08-14T10:42:25+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000575s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000316s ]
+
+[ 2017-08-14T10:42:30+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.002364s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000339s ]
+
+[ 2017-08-14T10:42:35+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000540s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002301s ]
+
+[ 2017-08-14T10:42:40+08:00 ] 10.24.181.84 /Home/Index/totalCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000536s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000332s ]
+
+[ 2017-08-14T10:42:40+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000350s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.000278s ]
+
+[ 2017-08-14T10:42:45+08:00 ] 10.24.181.84 /Home/Index/currentCount.html?search=copier:bg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.000491s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE ( `status` = 1 )  [ RunTime:0.002364s ]
+
